@@ -82,8 +82,8 @@
           "percentage": null,
           "locales": {
             "en": {
-              "title": "Statistical Thinking",
-              "description": "Memahami konsep statistik dasar untuk membantu interpretasi data dan analisis yang lebih akurat.",
+              "title": "DAX & Data Transformation",
+              "description": "Menggunakan DAX untuk membuat measure perhitungan serta melakukan transformasi data menggunakan Power Query.",
               "level": null
             }
           }
@@ -171,6 +171,17 @@
         },
         {
           "id": 7,
+          "img": "images/icons/pbi.png",
+          "fallbackFaIconColor": null,
+          "locales": {
+            "en": {
+              "title": "Microsoft Power BI",
+              "description": "Digunakan untuk visualisasi data dan pembuatan dashboard interaktif."
+            }
+          }
+        },
+        {
+          "id": 8,
           "img": "images/icons/python.png",
           "fallbackFaIconColor": null,
           "locales": {
