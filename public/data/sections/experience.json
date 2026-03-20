@@ -3,7 +3,11 @@
     {
       "id": 1,
       "component": "ArticleTimeline",
-      "locales": {},
+      "locales": {
+        "en": {
+          "title": "*Pengalaman Kerja*"
+        }
+      },
       "settings": {
         "order_items_by": "id",
         "order_items_sort": "desc"
@@ -40,9 +44,20 @@
               ]
             }
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "component": "ArticleTimeline",
+      "locales": {
+        "en": {
+          "title": "*Pengalaman Lainnya*"
+        }
+      },
+      "items": [
         {
-          "id": 2,
+          "id": 1,
           "dateStart": { "year": 2023, "month": 10 },
           "dateEnd": { "year": 2023, "month": 10 },
           "img": "images/icons/falatehan.png",
@@ -70,7 +85,7 @@
           }
         },
         {
-          "id": 3,
+          "id": 2,
           "dateStart": { "year": 2024, "month": 1 },
           "dateEnd": { "year": 2024, "month": 6 },
           "img": "images/icons/orbit.png",

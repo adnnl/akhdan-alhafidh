@@ -45,11 +45,6 @@
               "stringKey": "File Laporan"
             },
             {
-              "faIcon": "fa-solid fa-circle-play",
-              "href": "https://drive.google.com/file/d/1BENrKQ918jud51i9kJ_rL3b8KRNUmGtO/view",
-              "stringKey": "Demo Video"
-            },
-            {
               "faIcon": "fa-brands fa-youtube",
               "href": "https://youtu.be/rjpBKKnv4vs?si=Z0Kphdq89dX91IVm",
               "stringKey": "YouTube"
@@ -86,11 +81,6 @@
               "faIcon": "fa-solid fa-file-pdf",
               "href": "https://drive.google.com/file/d/1FF3eS8btZeZMjQRlMBoFk9Z3fpazpz3g/view",
               "stringKey": "File Laporan"
-            },
-            {
-              "faIcon": "fa-solid fa-circle-play",
-              "href": "https://drive.google.com/file/d/1_Wo-BW0OE0NFLCBU4_Cqgm4YwuaPfJ5Z/view",
-              "stringKey": "Demo Video"
             },
             {
               "faIcon": "fa-solid fa-up-right-from-square",
@@ -159,11 +149,6 @@
               "faIcon": "fa-solid fa-file-pdf",
               "href": "https://drive.google.com/file/d/1cKx2XQ9hvdWa7Wdi5rRmFZHiH9MNo7Eu/view",
               "stringKey": "File Laporan"
-            },
-            {
-              "faIcon": "fa-solid fa-circle-play",
-              "href": "https://drive.google.com/file/d/17n-YKbkeMU8kgkI4SE9xLFLNeWVSJZUA/view?usp=sharing",
-              "stringKey": "Video Dashboard"
             },
             {
               "faIcon": "fa-solid fa-file-excel",
@@ -235,6 +220,41 @@
               "faIcon": "fa-solid fa-up-right-from-square",
               "href": "https://jurnal.publikasitecno.id/index.php/indimas/article/view/134",
               "stringKey": "Journal Publication"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "img": "images/portfolio/fmcg.png",
+          "fallbackFaIcon": "",
+          "fallbackFaIconColor": null,
+          "category": "utilities",
+          "locales": {
+            "en": {
+              "title": "FMCG Sales Peerformance Dashboard",
+              "description": "Dashboard interaktif yang dibuat menggunakan Power BI untuk menganalisis performa penjualan FMCG. Dashboard ini menampilkan metrik utama seperti total revenue, total order, dan total customer, serta berbagai visualisasi untuk mengeksplorasi tren penjualan bulanan, kota dengan revenue tertinggi, produk terlaris, kontribusi kategori terhadap revenue, dan distribusi status pesanan. Dengan adanya fitur filter interaktif, dashboard ini membantu pengguna dalam memahami pola data dan mendukung pengambilan keputusan berbasis data.",
+              "tags": [
+                "excel",
+                "sql",
+                "python",
+                "power bi",
+                "data cleaning",
+                "eda",
+                "data visualization",
+                "dashboard"
+              ]
+            }
+          },
+          "links": [
+            {
+              "faIcon": "fa-solid fa-file-pdf",
+              "href": "https://github.com/adnnl/KarirNex-DA/blob/main/AKHDAN%20-%20PORTOFOLIO%20BT%20DATA%20ANALYST%20.pdf",
+              "stringKey": "File Materi"
+            },
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/adnnl/KarirNex-DA",
+              "stringKey": "GitHub Repository"
             }
           ]
         }

@@ -23,7 +23,7 @@
           "locales": {
             "en": {
               "title": "Data Analysis",
-              "description": "Mampu mengolah dan menganalisis data untuk menemukan pola dan insight yang relevan guna mendukung pengambilan keputusan.",
+              "description": "Menganalisis data untuk menemukan pola, tren, dan insight yang mendukung pengambilan keputusan berbasis data (Excel, SQL, Python).",
               "level": null
             }
           }
@@ -38,7 +38,7 @@
           "locales": {
             "en": {
               "title": "Data Visualization",
-              "description": "Menyajikan data dalam bentuk grafik dan dashboard yang informatif dan mudah dipahami menggunakan Microsoft Excel.",
+              "description": "Menyajikan data dalam bentuk dashboard dan visualisasi yang informatif menggunakan Excel dan Power BI.",
               "level": null
             }
           }
@@ -53,7 +53,7 @@
           "locales": {
             "en": {
               "title": "Data Cleaning",
-              "description": "Melakukan pembersihan dan perapihan dataset agar data siap dianalisis dan bebas dari inkonsistensi.",
+              "description": "Membersihkan dan menyiapkan data dengan menangani missing values, duplikasi, dan inkonsistensi menggunakan Excel, SQL, dan Python.",
               "level": null
             }
           }
@@ -68,7 +68,7 @@
           "locales": {
             "en": {
               "title": "Data Reporting",
-              "description": "Menyusun laporan data yang jelas dan terstruktur untuk menyampaikan temuan analisis kepada pemangku kepentingan.",
+              "description": "Menyusun laporan dan menyampaikan hasil analisis secara jelas dan terstruktur kepada stakeholder.",
               "level": null
             }
           }
@@ -83,7 +83,7 @@
           "locales": {
             "en": {
               "title": "DAX & Data Transformation",
-              "description": "Menggunakan DAX untuk membuat measure perhitungan serta melakukan transformasi data menggunakan Power Query.",
+              "description": "Membuat measure menggunakan DAX serta melakukan transformasi data menggunakan Power Query di Power BI.",
               "level": null
             }
           }
@@ -110,7 +110,7 @@
           "locales": {
             "en": {
               "title": "Microsoft Excel",
-              "description": "Pivot Table, VLOOKUP/XLOOKUP, IF, serta pembuatan dashboard interaktif."
+              "description": "Pivot Table, VLOOKUP/XLOOKUP, IF, dan pembuatan dashboard sederhana."
             }
           }
         },
@@ -132,7 +132,7 @@
           "locales": {
             "en": {
               "title": "Microsoft PowerPoint",
-              "description": "Penyajian insight dan hasil analisis dalam bentuk presentasi yang terstruktur dan informatif."
+              "description": "Penyajian insight dalam bentuk presentasi."
             }
           }
         },
@@ -142,8 +142,8 @@
           "fallbackFaIconColor": null,
           "locales": {
             "en": {
-              "title": "SQL (MySQL)",
-              "description": "SELECT, WHERE, JOIN, GROUP BY, dan agregasi data."
+              "title": "SQL",
+              "description": "Query dasar: SELECT, UPDATE, DELETE, WHERE, JOIN, GROUP BY, dan agregasi data."
             }
           }
         },
@@ -154,7 +154,7 @@
           "locales": {
             "en": {
               "title": "Microsoft Word",
-              "description": "Penyusunan dokumentasi dan laporan hasil analisis."
+              "description": "Penyusunan dokumentasi dan laporan."
             }
           }
         },
@@ -165,7 +165,7 @@
           "locales": {
             "en": {
               "title": "Google Colab",
-              "description": "Digunakan untuk eksplorasi dan pengolahan data menggunakan Python."
+              "description": "Lingkungan eksekusi Python berbasis cloud."
             }
           }
         },
@@ -176,7 +176,7 @@
           "locales": {
             "en": {
               "title": "Microsoft Power BI",
-              "description": "Digunakan untuk visualisasi data dan pembuatan dashboard interaktif."
+              "description": "Visualisasi data dan pembuatan dashboard interaktif."
             }
           }
         },
@@ -187,7 +187,7 @@
           "locales": {
             "en": {
               "title": "Python (Basic)",
-              "description": "Dasar-dasar Python untuk analisis data menggunakan library seperti Pandas, Numpy dan Matplotlib."
+              "description": "Analisis data menggunakan Pandas, NumPy, dan Matplotlib."
             }
           }
         }
@@ -217,8 +217,8 @@
           "percentage": null,
           "locales": {
             "en": {
-              "title": "English",
-              "description": "Memiliki kemampuan dasar dalam bahasa Inggris, dapat memahami dan menggunakan dalam percakapan sederhana serta komunikasi tertulis dasar.",
+              "title": "English – Basic (Reading & Writing)",
+              "description": "Mampu memahami teks bahasa Inggris dan komunikasi tertulis sederhana.",
               "level": "Pasif"
             }
           }
@@ -233,7 +233,7 @@
           "locales": {
             "en": {
               "title": "Bahasa Indonesia",
-              "description": "Lancar dalam komunikasi lisan dan tulisan Bahasa Indonesia; percaya diri dalam komunikasi profesional.",
+              "description": "Lancar dalam komunikasi lisan dan tulisan.",
               "level": "Lancar"
             }
           }

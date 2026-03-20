@@ -34,7 +34,7 @@
       "component": "ArticleTimeline",
       "locales": {
         "en": {
-          "title": "*Courses*"
+          "title": "*Courses*, Training, & Bootcamps"
         }
       },
       "settings": {
@@ -106,6 +106,23 @@
             "en": {
               "title": "Intensive Bootcamp 2 Weeks - Microsoft Excel",
               "description": "Mengikuti bootcamp Microsoft Excel yang berfokus pada pengolahan dan analisis data menggunakan formula lanjutan (IF, VLOOKUP, INDEX-MATCH), Pivot Table, dashboard interaktif, serta dasar VBA untuk otomatisasi reporting.",
+              "country": "Indonesia",
+              "institution": "KarirNex | PT. Ebiz Karisma Internasional",
+              "tags": []
+            }
+          }
+        },
+        {
+          "id": 5,
+          "dateStart": { "year": 2026, "month": 2 },
+          "dateEnd": { "year": 2026, "month": 2 },
+          "img": "images/icons/karirnex.png",
+          "fallbackFaIcon": null,
+          "fallbackFaIconColor": null,
+          "locales": {
+            "en": {
+              "title": "Bootcamp Data Analyst Using Excel, SQL, Python, & Power BI",
+              "description": "Menyelesaikan bootcamp Data Analyst intensif selama 2 minggu yang mencakup proses end-to-end analisis data, mulai dari data cleaning menggunakan Excel, SQL, dan Python, eksplorasi dan analisis data dengan Python, hingga pembuatan dashboard interaktif menggunakan Power BI. Mini project yang dikerjakan berfokus pada analisis data penjualan FMCG untuk menghasilkan insight yang dapat mendukung pengambilan keputusan bisnis.",
               "country": "Indonesia",
               "institution": "KarirNex | PT. Ebiz Karisma Internasional",
               "tags": []
