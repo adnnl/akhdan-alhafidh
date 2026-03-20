@@ -4,7 +4,7 @@
   "locales": {
     "en": {
       "credits": "2026",
-      "role": "Data Analyst"
+      "role": "Junior Data Analyst"
     }
   },
   "contactOptions": [
@@ -57,6 +57,14 @@
       "valueShort": "",
       "faIcon": "fa-solid fa-file-pdf",
       "href": "/pdf/adanalhafidh.pdf",
+      "copy": false
+    },
+    {
+      "id": "github",
+      "value": "",
+      "valueShort": "",
+      "faIcon": "fa-brands fa-github",
+      "href": "https://github.com/adnnl",
       "copy": false
     }
   ]

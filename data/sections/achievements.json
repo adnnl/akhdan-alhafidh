@@ -100,6 +100,24 @@
               "stringKey": "view_certification"
             }
           ]
+        },
+        {
+          "id": 6,
+          "dateStart": { "year": 2026, "month": 2 },
+          "fallbackFaIconColor": null,
+          "locales": {
+            "en": {
+              "title": "Bootcamp Data Analyst Using Excel, SQL, Python, & Power BI",
+              "description": "Pelatihan intensif (15 jam) Data Analyst menggunakan Excel, SQL, Python, dan Power BI yang mencakup data cleaning, analisis, visualisasi, serta pembuatan dashboard dan mini project berbasis data.",
+              "institution": "KarirNex | PT. Ebiz Karisma Internasional"
+            }
+          },
+          "links": [
+            {
+              "href": "https://drive.google.com/file/d/1zf-bJdo_2kx7eQNxqBQKCbEtLKAsr1Lk/view",
+              "stringKey": "view_certification"
+            }
+          ]
         }
       ]
     }
