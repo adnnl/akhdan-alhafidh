@@ -4,7 +4,8 @@
       "id": 1,
       "component": "ArticleSkills",
       "locales": {
-        "en": { "title": null }
+        "en": { "title": null },
+        "id": { "title": null }
       },
       "settings": {
         "order_items_by": "id",
@@ -22,8 +23,13 @@
           "fallbackFaIconColor": "#FF6384",
           "locales": {
             "en": {
+              "title": "Chess",
+              "description": "A strategic board game that sharpens critical thinking and problem-solving skills.",
+              "level": null
+            },
+            "id": {
               "title": "Catur",
-              "description": "Strategi dan taktik di papan 64 kotak.",
+              "description": "Permainan papan strategis yang melatih kemampuan berpikir kritis dan pemecahan masalah.",
               "level": null
             }
           }
@@ -36,8 +42,13 @@
           "fallbackFaIconColor": "#36A2EB",
           "locales": {
             "en": {
-              "title": "Baca Buku",
-              "description": "Membaca buku tentang pengembangan diri dan nonfiksi.",
+              "title": "Reading",
+              "description": "Reading self-development and non-fiction books to expand knowledge and improve critical thinking.",
+              "level": null
+            },
+            "id": {
+              "title": "Membaca",
+              "description": "Membaca buku pengembangan diri dan non-fiksi untuk memperluas pengetahuan dan meningkatkan kemampuan berpikir kritis.",
               "level": null
             }
           }
@@ -50,9 +61,13 @@
           "fallbackFaIconColor": "#FFCE56",
           "locales": {
             "en": {
+              "title": "Music",
+              "description": "Enjoy listening to various music genres to relax and maintain focus.",
+              "level": null
+            },
+            "id": {
               "title": "Musik",
-              "description": "Menyukai dan Mendengarkan berbagai genre musik.",
-
+              "description": "Menikmati berbagai genre musik untuk relaksasi dan menjaga fokus.",
               "level": null
             }
           }
@@ -65,8 +80,13 @@
           "fallbackFaIconColor": "#4BC0C0",
           "locales": {
             "en": {
+              "title": "Self-Learning",
+              "description": "Continuously learning new skills independently to improve knowledge and adaptability.",
+              "level": null
+            },
+            "id": {
               "title": "Pembelajaran Mandiri",
-              "description": "Mempelajari keterampilan baru secara mandiri.",
+              "description": "Terus mempelajari keterampilan baru secara mandiri untuk meningkatkan pengetahuan dan kemampuan beradaptasi.",
               "level": null
             }
           }

@@ -23,6 +23,11 @@
           "locales": {
             "en": {
               "title": "Data Analysis",
+              "description": "Analyzed data to uncover patterns and trends, generating insights for data-driven decision-making (Excel, SQL, Python).",
+              "level": null
+            },
+            "id": {
+              "title": "Analisis Data",
               "description": "Menganalisis data untuk menemukan pola, tren, dan insight yang mendukung pengambilan keputusan berbasis data (Excel, SQL, Python).",
               "level": null
             }
@@ -38,6 +43,11 @@
           "locales": {
             "en": {
               "title": "Data Visualization",
+              "description": "Presenting data in the form of dashboards and informative visualizations using Excel and Power BI.",
+              "level": null
+            },
+            "id": {
+              "title": "Visualisasi Data",
               "description": "Menyajikan data dalam bentuk dashboard dan visualisasi yang informatif menggunakan Excel dan Power BI.",
               "level": null
             }
@@ -53,6 +63,11 @@
           "locales": {
             "en": {
               "title": "Data Cleaning",
+              "description": "Cleaning and preparing data by handling missing values, duplicates, and inconsistencies using Excel, SQL, and Python.",
+              "level": null
+            },
+            "id": {
+              "title": "Data Cleaning",
               "description": "Membersihkan dan menyiapkan data dengan menangani missing values, duplikasi, dan inkonsistensi menggunakan Excel, SQL, dan Python.",
               "level": null
             }
@@ -66,9 +81,14 @@
           "fallbackFaIconColor": null,
           "percentage": null,
           "locales": {
+            "id": {
+              "title": "Pelaporan Data",
+              "description": "Menyusun laporan dan menyampaikan hasil analisis secara jelas dan terstruktur kepada stakeholder.",
+              "level": null
+            },
             "en": {
               "title": "Data Reporting",
-              "description": "Menyusun laporan dan menyampaikan hasil analisis secara jelas dan terstruktur kepada stakeholder.",
+              "description": "Creating reports and communicating analysis results clearly and structured to stakeholders.",
               "level": null
             }
           }
@@ -81,9 +101,14 @@
           "fallbackFaIconColor": null,
           "percentage": null,
           "locales": {
+            "id": {
+              "title": "DAX & Transformasi Data",
+              "description": "Membuat measure menggunakan DAX serta melakukan transformasi data menggunakan Power Query di Power BI.",
+              "level": null
+            },
             "en": {
               "title": "DAX & Data Transformation",
-              "description": "Membuat measure menggunakan DAX serta melakukan transformasi data menggunakan Power Query di Power BI.",
+              "description": "Creating measures using DAX and performing data transformation using Power Query in Power BI.",
               "level": null
             }
           }
@@ -94,7 +119,8 @@
       "id": 2,
       "component": "ArticleSkills",
       "locales": {
-        "en": { "title": "Tools" }
+        "en": { "title": "Tools" },
+        "id": { "title": "Alat" }
       },
       "settings": {
         "max_items_per_line": 2,
@@ -110,6 +136,10 @@
           "locales": {
             "en": {
               "title": "Microsoft Excel",
+              "description": "Experience with Pivot Tables, VLOOKUP/XLOOKUP, IF functions, and basic dashboard development"
+            },
+            "id": {
+              "title": "Microsoft Excel",
               "description": "Pivot Table, VLOOKUP/XLOOKUP, IF, dan pembuatan dashboard sederhana."
             }
           }
@@ -119,9 +149,13 @@
           "img": "images/icons/gsheet.png",
           "fallbackFaIconColor": null,
           "locales": {
-            "en": {
+            "id": {
               "title": "Google Sheets",
               "description": "Pengolahan data dan pelaporan berbasis cloud."
+            },
+            "en": {
+              "title": "Google Sheets",
+              "description": "Data processing and cloud-based reporting."
             }
           }
         },
@@ -131,6 +165,10 @@
           "fallbackFaIconColor": null,
           "locales": {
             "en": {
+              "title": "Microsoft PowerPoint",
+              "description": "Presenting insights in a presentation format."
+            },
+            "id": {
               "title": "Microsoft PowerPoint",
               "description": "Penyajian insight dalam bentuk presentasi."
             }
@@ -143,6 +181,10 @@
           "locales": {
             "en": {
               "title": "SQL",
+              "description": "Basic querying: SELECT, UPDATE, DELETE, WHERE, JOIN, GROUP BY, and data aggregation."
+            },
+            "id": {
+              "title": "SQL",
               "description": "Query dasar: SELECT, UPDATE, DELETE, WHERE, JOIN, GROUP BY, dan agregasi data."
             }
           }
@@ -154,6 +196,10 @@
           "locales": {
             "en": {
               "title": "Microsoft Word",
+              "description": "Creating documentation and reports."
+            },
+            "id": {
+              "title": "Microsoft Word",
               "description": "Penyusunan dokumentasi dan laporan."
             }
           }
@@ -163,9 +209,13 @@
           "img": "images/icons/gcolab.png",
           "fallbackFaIconColor": null,
           "locales": {
-            "en": {
+            "id": {
               "title": "Google Colab",
               "description": "Lingkungan eksekusi Python berbasis cloud."
+            },
+            "en": {
+              "title": "Google Colab",
+              "description": "Cloud-based Python execution environment."
             }
           }
         },
@@ -175,6 +225,10 @@
           "fallbackFaIconColor": null,
           "locales": {
             "en": {
+              "title": "Microsoft Power BI",
+              "description": "Data visualization and interactive dashboard creation."
+            },
+            "id": {
               "title": "Microsoft Power BI",
               "description": "Visualisasi data dan pembuatan dashboard interaktif."
             }
@@ -187,6 +241,10 @@
           "locales": {
             "en": {
               "title": "Python (Basic)",
+              "description": "Data analysis using Pandas, NumPy, and Matplotlib."
+            },
+            "id": {
+              "title": "Python (Dasar)",
               "description": "Analisis data menggunakan Pandas, NumPy, dan Matplotlib."
             }
           }
@@ -216,10 +274,15 @@
           "fallbackFaIconColor": null,
           "percentage": null,
           "locales": {
-            "en": {
+            "id": {
               "title": "English – Basic (Reading & Writing)",
               "description": "Mampu memahami teks bahasa Inggris dan komunikasi tertulis sederhana.",
               "level": "Pasif"
+            },
+            "en": {
+              "title": "English – Basic (Reading & Writing)",
+              "description": "Able to understand English texts and simple written communication.",
+              "level": "Passive"
             }
           }
         },
@@ -231,10 +294,15 @@
           "fallbackFaIconColor": null,
           "percentage": null,
           "locales": {
-            "en": {
+            "id": {
               "title": "Bahasa Indonesia",
               "description": "Lancar dalam komunikasi lisan dan tulisan.",
               "level": "Lancar"
+            },
+            "en": {
+              "title": "Indonesian Language",
+              "description": "Fluent in both spoken and written communication.",
+              "level": "Fluent"
             }
           }
         }
@@ -263,7 +331,8 @@
           "fallbackFaIconColor": null,
           "percentage": null,
           "locales": {
-            "en": { "title": "", "description": "" }
+            "en": { "title": "", "description": "" },
+            "id": { "title": "", "description": "" }
           }
         },
         {
@@ -275,6 +344,10 @@
           "percentage": null,
           "locales": {
             "en": {
+              "title": "",
+              "description": ""
+            },
+            "id": {
               "title": "",
               "description": ""
             }
@@ -291,6 +364,10 @@
             "en": {
               "title": "",
               "description": ""
+            },
+            "id": {
+              "title": "",
+              "description": ""
             }
           }
         },
@@ -303,6 +380,10 @@
           "percentage": null,
           "locales": {
             "en": {
+              "title": "",
+              "description": ""
+            },
+            "id": {
               "title": "",
               "description": ""
             }
@@ -319,6 +400,10 @@
             "en": {
               "title": "",
               "description": ""
+            },
+            "id": {
+              "title": "",
+              "description": ""
             }
           }
         },
@@ -331,6 +416,10 @@
           "percentage": null,
           "locales": {
             "en": {
+              "title": "",
+              "description": ""
+            },
+            "id": {
               "title": "",
               "description": ""
             }

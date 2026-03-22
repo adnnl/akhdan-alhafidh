@@ -3,10 +3,16 @@
   "navToggleEnabled": true,
   "supportedLanguages": [
     {
+      "name": "Indonesia",
+      "id": "id",
+      "flagUrl": "images/flags/id.png",
+      "default": true
+    },
+    {
       "name": "English",
       "id": "en",
       "flagUrl": "images/flags/en-us.png",
-      "default": true
+      "default": false
     }
   ]
 }

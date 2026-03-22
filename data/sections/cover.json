@@ -19,8 +19,11 @@
         {
           "id": 1,
           "locales": {
-            "en": {
+            "id": {
               "description": "Lulusan Teknik Informatika dengan minat kuat di bidang analisis data dan visualisasi data. Memiliki pengalaman dalam membersihkan, mengolah, dan menganalisis data menggunakan Excel, SQL, dan Python, serta membangun dashboard interaktif menggunakan Power BI untuk menghasilkan insight yang mendukung pengambilan keputusan."
+            },
+            "en": {
+              "description": "A graduate of Computer Science with a strong interest in data analysis and data visualization. Experienced in cleaning, processing, and analyzing data using Excel, SQL, and Python, as well as building interactive dashboards using Power BI to generate insights that support decision-making."
             }
           }
         },
@@ -28,8 +31,11 @@
         {
           "id": 2,
           "locales": {
-            "en": {
+            "id": {
               "description": "Saya percaya bahwa data yang diolah dengan tepat dapat memberikan insight yang bernilai dan membantu pengambilan keputusan yang lebih akurat."
+            },
+            "en": {
+              "description": "I believe that properly processed data can provide valuable insights and help make more accurate decisions."
             }
           }
         }

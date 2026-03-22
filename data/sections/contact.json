@@ -5,9 +5,14 @@
       "component": "ArticleContactForm",
       "locales": {
         "en": {
-          "contact_thank_you": "*Thanks* for the contact!",
+          "contact_thank_you": "*Thanks* for reaching out!",
+          "contact_thank_you_description": "Your message has been received, and I will get back to you as soon as possible. I appreciate your time and look forward to connecting with you!",
+          "contact_thank_you_reply": "A reply will be sent to your email address: *{email}*."
+        },
+        "id": {
+          "contact_thank_you": "*Terima kasih* telah menghubungi!",
           "contact_thank_you_description": "Pesan Anda telah diterima, dan saya akan segera menghubungi Anda. Saya menghargai waktu Anda dan menantikan untuk terhubung dengan Anda!",
-          "contact_thank_you_reply": "Balasan akan dikirimkan ke alamat email Anda. *{email}*."
+          "contact_thank_you_reply": "Balasan akan dikirimkan ke alamat email Anda: *{email}*."
         }
       },
       "settings": {
@@ -24,8 +29,12 @@
       "component": "ArticleContactOptions",
       "locales": {
         "en": {
-          "title": "atau",
-          "description": "Jika tidak otomatis mendapatkan balasan email silahkan hubungi saya melalui:"
+          "title": "Or",
+          "description": "If you do not receive an automatic email response, please contact me through:"
+        },
+        "id": {
+          "title": "Atau",
+          "description": "Jika Anda tidak menerima balasan email otomatis, silakan hubungi saya melalui:"
         }
       },
       "settings": {

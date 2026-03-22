@@ -12,6 +12,12 @@
           "title_short": "Welcome!",
           "description": null,
           "nav_label": "About"
+        },
+        "id": {
+          "title": "Tentang *Saya*",
+          "title_short": "Selamat Datang!",
+          "description": null,
+          "nav_label": "Tentang"
         }
       }
     },
@@ -25,14 +31,14 @@
         "en": {
           "title": "*Education*",
           "title_short": null,
-          "description": "Latar belakang pendidikan dan fondasi akademik saya.",
+          "description": "",
           "nav_label": "Education"
         },
         "id": {
-          "title": "Latar Belakang *Pendidikan*",
+          "title": "*Pendidikan*",
           "title_short": null,
           "description": "Latar belakang pendidikan dan fondasi akademik saya.",
-          "nav_label": "Education"
+          "nav_label": "Pendidikan"
         }
       }
     },
@@ -46,8 +52,14 @@
         "en": {
           "title": "*Skill* Set",
           "title_short": null,
-          "description": "Kemampuan teknis dan tools yang saya gunakan.",
+          "description": "Technical skills and tools I work with.",
           "nav_label": "Skills"
+        },
+        "id": {
+          "title": "*Keahlian*",
+          "title_short": null,
+          "description": "Kemampuan teknis dan tools yang saya gunakan.",
+          "nav_label": "Keahlian"
         }
       }
     },
@@ -58,10 +70,16 @@
       "faIcon": "fa-solid fa-briefcase",
       "type": "column",
       "locales": {
-        "en": {
+        "id": {
           "title": "*Pengalaman*",
           "title_short": null,
           "description": "Pengalaman Kerja & Pengalaman lainnya.",
+          "nav_label": "Pengalaman"
+        },
+        "en": {
+          "title": "*Experience*",
+          "title_short": null,
+          "description": "Work Experience & Other Experience.",
           "nav_label": "Experience"
         }
       }
@@ -77,6 +95,11 @@
           "title": "My *Portfolio*",
           "title_short": null,
           "nav_label": "Portfolio"
+        },
+        "id": {
+          "title": "*Portofolio* Saya",
+          "title_short": null,
+          "nav_label": "Portofolio"
         }
       }
     },
@@ -92,6 +115,12 @@
           "title_short": null,
           "description": null,
           "nav_label": "Certifications"
+        },
+        "id": {
+          "title": "*Sertifikasi*",
+          "title_short": null,
+          "description": null,
+          "nav_label": "Sertifikasi"
         }
       }
     },
@@ -105,8 +134,14 @@
         "en": {
           "title": "*Hobbies* & Interests",
           "title_short": null,
-          "description": "cara saya menghabiskan waktu luang dan mengejar minat pribadi.",
+          "description": "How I spend my free time and explore my interests.",
           "nav_label": "Hobbies"
+        },
+        "id": {
+          "title": "*Hobi* & Minat",
+          "title_short": null,
+          "description": "cara saya menghabiskan waktu luang dan mengejar minat pribadi.",
+          "nav_label": "Hobi"
         }
       }
     },
@@ -120,8 +155,14 @@
         "en": {
           "title": "*Contact* Me",
           "title_short": null,
-          "description": "jangan ragu untuk menghubungi saya melalui formulir di bawah ini.",
+          "description": "Don't hesitate to reach out to me through the form below.",
           "nav_label": "Contact"
+        },
+        "id": {
+          "title": "*Kontak* Saya",
+          "title_short": null,
+          "description": "jangan ragu untuk menghubungi saya melalui formulir di bawah ini.",
+          "nav_label": "Kontakz"
         }
       }
     }

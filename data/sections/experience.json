@@ -4,8 +4,11 @@
       "id": 1,
       "component": "ArticleTimeline",
       "locales": {
-        "en": {
+        "id": {
           "title": "*Pengalaman Kerja*"
+        },
+        "en": {
+          "title": "*Work Experience*"
         }
       },
       "settings": {
@@ -22,6 +25,28 @@
           "fallbackFaIconColor": null,
           "locales": {
             "en": {
+              "title": "E-commerce Admin – A&A Parts",
+              "description": "Managed daily operations of an online store independently and monitored sales performance through the e-commerce platform dashboard.",
+              "list": {
+                "title": "Key Responsibilities:",
+                "items": [
+                  "Managed over 60 product listings.",
+                  "Handled more than 50 customers and transaction processes.",
+                  "Monitored order and inventory data to ensure smooth operations."
+                ]
+              },
+              "province": "Depok",
+              "country": "Indonesia",
+              "institution": "Platform E-Commerce Tokopedia",
+              "tags": [
+                "e-commerce",
+                "customer service",
+                "inventory monitoring",
+                "order management",
+                "operations"
+              ]
+            },
+            "id": {
               "title": "Admin Toko Online – A&A Parts",
               "description": "Mengelola operasional toko online secara mandiri dan memantau performa penjualan melalui dashboard platform e-commerce.",
               "list": {
@@ -65,6 +90,24 @@
           "fallbackFaIconColor": null,
           "locales": {
             "en": {
+              "title": "Microsoft Excel Trainer (Campus Community Service)",
+              "description": "Delivered basic data processing training using Microsoft Excel to 19 students.",
+              "list": {
+                "title": "Key Responsibilities:",
+                "items": [
+                  "Developed training materials that were clear and relevant.",
+                  "Taught basic formulas and fundamental data processing techniques.",
+                  "Conducted interactive, hands-on training sessions.",
+                  "Assisted participants in understanding and applying basic Excel concepts.",
+                  "Prepared activity reports and documentation."
+                ]
+              },
+              "province": "Banten",
+              "country": "Indonesia",
+              "institution": "SMP Falatehan Serpong",
+              "tags": ["excel", "training", "reporting", "community service"]
+            },
+            "id": {
               "title": "Trainer Microsoft Excel (PKM Kampus)",
               "description": "Memberikan pelatihan dasar pengolahan data menggunakan Microsoft Excel kepada 19 siswa.",
               "list": {
@@ -93,6 +136,31 @@
           "fallbackFaIconColor": null,
           "locales": {
             "en": {
+              "title": "AI & Data Trainee – AI 4 Jobs (MSIB Batch 6)",
+              "description": "Contributed to the development of a web-based chatbot and performed data processing and dataset preparation to support the implementation of a text classification model using Python.",
+              "list": {
+                "title": "Key Responsibilities:",
+                "items": [
+                  "Performed data preprocessing including cleaning, tokenization, and encoding on text datasets.",
+                  "Adapted and implemented text classification models based on project requirements.",
+                  "Prepared and fine-tuned datasets and model parameters prior to training.",
+                  "Integrated the model into a web application using Flask.",
+                  "Developed and implemented the frontend interface for the chatbot system."
+                ]
+              },
+              "province": "Jakarta",
+              "country": "Indonesia",
+              "institution": "PT Orbit Ventura Indonesia (Orbit Future Academy)",
+              "tags": [
+                "artificial intelligence",
+                "python",
+                "data preprocessing",
+                "text classification",
+                "flask",
+                "chatbot"
+              ]
+            },
+            "id": {
               "title": "AI & Data Trainee – AI 4 Jobs (MSIB Batch 6)",
               "description": "berkontribusi pada pengembangan chatbot berbasis web serta melakukan pengolahan dan penyesuaian dataset untuk mendukung implementasi model klasifikasi teks menggunakan Python.",
               "list": {

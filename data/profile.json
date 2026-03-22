@@ -5,6 +5,10 @@
     "en": {
       "credits": "2026",
       "role": "Junior Data Analyst"
+    },
+    "id": {
+      "credits": "2026",
+      "role": "Junior Data Analyst"
     }
   },
   "contactOptions": [
@@ -14,6 +18,10 @@
       "href": null,
       "locales": {
         "en": {
+          "value": "Kemang Kiara, Kemang, Kab.Bogor, Jawa Barat, Indonesia",
+          "valueShort": "Kemang, Bogor – Indonesia"
+        },
+        "id": {
           "value": "Kemang Kiara, Kemang, Kab.Bogor, Jawa Barat, Indonesia",
           "valueShort": "Kemang, Bogor – Indonesia"
         }

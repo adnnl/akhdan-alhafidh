@@ -14,8 +14,13 @@
           "fallbackFaIconColor": null,
           "locales": {
             "en": {
-              "title": "AI 4 JOBS - (MSIB Batch 6)",
-              "description": "Program Studi Independen (900 jam) yang berfokus pada konsep Artificial Intelligence, pemrograman Python, analisis data & statistik, serta pengembangan proyek akhir berbasis AI untuk penyelesaian masalah bisnis.",
+              "title": "AI 4 Jobs – MSIB Batch 6",
+              "description": "An Independent Study program (900 hours) focused on Artificial Intelligence concepts, Python programming, data analysis and statistics, as well as developing an AI-based final project to solve real-world business problems.",
+              "institution": "Orbit Future Academy | PT Orbit Ventura Indonesia"
+            },
+            "id": {
+              "title": "AI 4 JOBS - MSIB Batch 6",
+              "description": "Program Studi Independen (900 jam) yang berfokus pada konsep Artificial Intelligence, pemrograman Python, analisis data dan statistik, serta pengembangan proyek akhir berbasis AI untuk menyelesaikan permasalahan bisnis.",
               "institution": "Orbit Future Academy | PT. Orbit Ventura Indonesia"
             }
           },
@@ -34,6 +39,11 @@
           "fallbackFaIconColor": null,
           "locales": {
             "en": {
+              "title": "Programming Competency Certification",
+              "description": "A competency certification in software development covering program specification usage, writing code according to standards, database management, and debugging processes.",
+              "institution": "LSP Universitas Pamulang"
+            },
+            "id": {
               "title": "Sertifikasi Kompetensi Pemrogram",
               "description": "Sertifikasi kompetensi dalam pengembangan perangkat lunak yang mencakup penggunaan spesifikasi program, penulisan kode sesuai standar, pengelolaan basis data, dan proses debugging.",
               "institution": "LSP Universitas Pamulang"
@@ -53,8 +63,13 @@
           "fallbackFaIconColor": null,
           "locales": {
             "en": {
+              "title": "Introduction to Data Analytics",
+              "description": "An introductory program covering data cleaning, exploratory data analysis (EDA), and data visualization.",
+              "institution": "RevoU | PT. Revolusi Cita Edukasi"
+            },
+            "id": {
               "title": "Intro to Data Analytics",
-              "description": "Pengantar analisis data mencakup data cleaning, EDA, dan visualisasi data.",
+              "description": "Pengantar analisis data yang mencakup data cleaning, exploratory data analysis (EDA), dan visualisasi data.",
               "institution": "RevoU | PT. Revolusi Cita Edukasi"
             }
           },
@@ -72,7 +87,12 @@
           "locales": {
             "en": {
               "title": "Special Skill Bootcamp: Data Analyst",
-              "description": "Bootcamp intensif (28 jam) Data Analyst yang mencakup statistik dasar, pengolahan dan eksplorasi data (EDA), visualisasi, serta pembuatan dashboard menggunakan Excel.",
+              "description": "An intensive Data Analyst bootcamp (28 hours) covering basic statistics, data processing, exploratory data analysis (EDA), data visualization, and dashboard development using Excel.",
+              "institution": "Special Skill Indonesia | PT Special Skill Indonesia"
+            },
+            "id": {
+              "title": "Special Skill Bootcamp: Data Analyst",
+              "description": "Bootcamp intensif (28 jam) Data Analyst yang mencakup statistik dasar, pengolahan data, exploratory data analysis (EDA), visualisasi data, serta pembuatan dashboard menggunakan Excel.",
               "institution": "Special Skill Indonesia | PT. Special Skill Indonesia"
             }
           },
@@ -89,8 +109,13 @@
           "fallbackFaIconColor": null,
           "locales": {
             "en": {
+              "title": "2-Week Intensive Bootcamp – Microsoft Excel",
+              "description": "An intensive Microsoft Excel training program (15 hours) covering data processing, formulas and functions, Pivot Tables, data visualization, and basic VBA, with a mini project as the final evaluation.",
+              "institution": "KarirNex | PT Ebiz Karisma Internasional"
+            },
+            "id": {
               "title": "Intensive Bootcamp 2 Weeks - Microsoft Excel",
-              "description": "Pelatihan intensif (15 jam) Microsoft Excel yang mencakup pengolahan data, formula & function, Pivot Table, visualisasi data, serta dasar VBA dengan mini project sebagai evaluasi akhir.",
+              "description": "Pelatihan intensif Microsoft Excel (15 jam) yang mencakup pengolahan data, formula dan function, Pivot Table, visualisasi data, serta dasar VBA dengan mini project sebagai evaluasi akhir.",
               "institution": "KarirNex | PT. Ebiz Karisma Internasional"
             }
           },
@@ -107,8 +132,13 @@
           "fallbackFaIconColor": null,
           "locales": {
             "en": {
+              "title": "Data Analyst Bootcamp (Excel, SQL, Python, Power BI)",
+              "description": "An intensive Data Analyst training program (15 hours) using Excel, SQL, Python, and Power BI, covering data cleaning, analysis, visualization, dashboard development, and a data-driven mini project.",
+              "institution": "KarirNex | PT Ebiz Karisma Internasional"
+            },
+            "id": {
               "title": "Bootcamp Data Analyst Using Excel, SQL, Python, & Power BI",
-              "description": "Pelatihan intensif (15 jam) Data Analyst menggunakan Excel, SQL, Python, dan Power BI yang mencakup data cleaning, analisis, visualisasi, serta pembuatan dashboard dan mini project berbasis data.",
+              "description": "Pelatihan intensif (15 jam) Data Analyst menggunakan Excel, SQL, Python, dan Power BI yang mencakup data cleaning, analisis, visualisasi, pembuatan dashboard, serta mini project berbasis data.",
               "institution": "KarirNex | PT. Ebiz Karisma Internasional"
             }
           },
