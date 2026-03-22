@@ -25,16 +25,29 @@
           "category": "productivity",
           "locales": {
             "en": {
-              "title": "BengBOT - Chatbot AI untuk layanan pelanggan bengkel motor",
-              "description": "<b>*BengBOT*</b> adalah chatbot berbasis Artificial Intelligence yang dibangun menggunakan Python, Flask, dan TensorFlow. Chatbot ini memanfaatkan teknik Natural Language Processing (NLP) untuk memahami input pengguna dan mengklasifikasikan intent sebelum menghasilkan respons yang sesuai. <br><br> Proyek ini merupakan implementasi integrasi machine learning ke dalam aplikasi web, mulai dari preprocessing data, pelatihan model, hingga deployment.",
+              "title": "BengBOT - AI Chatbot for Motorcycle Workshop Customer Service",
+              "description": "<b>*BengBOT*</b> is an Artificial Intelligence-based chatbot developed using Python, Flask, and TensorFlow. It utilizes Natural Language Processing (NLP) techniques to understand user input and classify intents before generating appropriate responses. <br><br> This project demonstrates the integration of machine learning into a web application, covering the full pipeline from data preprocessing and model training to deployment.",
               "tags": [
-                "AI",
-                "Chatbot",
-                "NLP",
-                "Flask",
-                "Python",
-                "TensorFlow",
-                "Machine Learning"
+                "artificial intelligence",
+                "chatbot",
+                "natural language processing",
+                "flask",
+                "python",
+                "tensorflow",
+                "machine learning"
+              ]
+            },
+            "id": {
+              "title": "BengBOT - Chatbot AI untuk Layanan Pelanggan Bengkel Motor",
+              "description": "<b>*BengBOT*</b> adalah chatbot berbasis Artificial Intelligence yang dikembangkan menggunakan Python, Flask, dan TensorFlow. Chatbot ini memanfaatkan teknik Natural Language Processing (NLP) untuk memahami input pengguna dan mengklasifikasikan intent sebelum menghasilkan respons yang sesuai. <br><br> Proyek ini merupakan implementasi integrasi machine learning ke dalam aplikasi web, mencakup seluruh proses mulai dari preprocessing data, pelatihan model, hingga deployment.",
+              "tags": [
+                "kecerdasan buatan",
+                "chatbot",
+                "pemrosesan bahasa alami",
+                "flask",
+                "python",
+                "tensorflow",
+                "machine learning"
               ]
             }
           },
@@ -64,15 +77,27 @@
           "category": "productivity",
           "locales": {
             "en": {
-              "title": "SPK Pemeringkatan Santri Unggul & Berprestasi",
-              "description": "<b>SPK - MFEP</b> adalah sistem pendukung keputusan berbasis web yang mengimplementasikan metode Multi Factor Evaluation Process (MFEP) untuk melakukan evaluasi dan pemeringkatan santri berdasarkan kriteria terukur. Sistem ini dirancang untuk menghasilkan keputusan yang objektif, transparan, dan terstruktur dalam menentukan santri unggul dan berprestasi. <br><br>Sistem ini membantu pihak pengelola dalam mempercepat proses seleksi serta meminimalisir subjektivitas dalam pengambilan keputusan.",
+              "title": "Decision Support System for Outstanding Student Ranking (MFEP)",
+              "description": "<b>DSS - MFEP</b> is a web-based decision support system that implements the Multi Factor Evaluation Process (MFEP) method to evaluate and rank students based on measurable criteria. The system is designed to produce objective, transparent, and structured decisions in identifying outstanding and high-achieving students. <br><br> It helps administrators streamline the selection process and reduce subjectivity in decision-making.",
               "tags": [
-                "PHP",
-                "Decision Support System",
-                "MFEP",
-                "Data Processing",
-                "MySQL",
-                "Web Application"
+                "php",
+                "decision support system",
+                "mfep",
+                "data processing",
+                "mysql",
+                "web application"
+              ]
+            },
+            "id": {
+              "title": "Sistem Pendukung Keputusan Pemeringkatan Santri Unggul & Berprestasi",
+              "description": "<b>SPK - MFEP</b> adalah sistem pendukung keputusan berbasis web yang mengimplementasikan metode Multi Factor Evaluation Process (MFEP) untuk mengevaluasi dan memeringkat santri berdasarkan kriteria yang terukur. Sistem ini dirancang untuk menghasilkan keputusan yang objektif, transparan, dan terstruktur dalam menentukan santri unggul dan berprestasi. <br><br> Sistem ini membantu pengelola dalam mempercepat proses seleksi serta meminimalkan subjektivitas dalam pengambilan keputusan.",
+              "tags": [
+                "php",
+                "sistem pendukung keputusan",
+                "mfep",
+                "pengolahan data",
+                "mysql",
+                "aplikasi web"
               ]
             }
           },
@@ -97,13 +122,26 @@
           "category": "utilities",
           "locales": {
             "en": {
-              "title": "Dashboard Analisis Populasi Ternak Jawa Tengah (2019–2024)",
-              "description": "Proyek ini merupakan analisis eksploratif terhadap perkembangan populasi ternak di Jawa Tengah periode 2019–2024 menggunakan Microsoft Excel (Pivot Table & Pivot Chart). <br><br>Analisis difokuskan pada pertumbuhan komoditas, sentra produksi, fluktuasi tahunan, kontribusi wilayah, dan konsentrasi populasi untuk menghasilkan insight strategis berbasis data. <br><br>Hasil analisis menunjukkan lonjakan signifikan pada komoditas Ayam Ras Broiler serta dominasi wilayah kabupaten sebagai pusat produksi ternak.",
+              "title": "Livestock Population Analysis Dashboard - Central Java (2019–2024)",
+              "description": "This project is an exploratory analysis of livestock population growth in Central Java from 2019 to 2024 using Microsoft Excel (Pivot Tables & Pivot Charts). <br><br>The analysis focuses on commodity growth, production centers, annual fluctuations, regional contributions, and population concentration to generate data-driven insights. <br><br>The results highlight a significant increase in broiler chicken populations and the dominance of regencies as key livestock production centers.",
               "tags": [
                 "excel",
                 "pivot table",
                 "data analysis",
                 "data visualization",
+                "data cleaning",
+                "exploratory data analysis",
+                "dashboard"
+              ]
+            },
+            "id": {
+              "title": "Dashboard Analisis Populasi Ternak Jawa Tengah (2019–2024)",
+              "description": "Proyek ini merupakan analisis eksploratif terhadap perkembangan populasi ternak di Jawa Tengah periode 2019–2024 menggunakan Microsoft Excel (Pivot Table & Pivot Chart). <br><br>Analisis difokuskan pada pertumbuhan komoditas, sentra produksi, fluktuasi tahunan, kontribusi wilayah, dan konsentrasi populasi untuk menghasilkan insight berbasis data. <br><br>Hasil analisis menunjukkan peningkatan signifikan pada komoditas ayam ras broiler serta dominasi wilayah kabupaten sebagai pusat produksi ternak.",
+              "tags": [
+                "excel",
+                "pivot table",
+                "analisis data",
+                "visualisasi data",
                 "data cleaning",
                 "exploratory data analysis",
                 "dashboard"
@@ -131,13 +169,26 @@
           "category": "utilities",
           "locales": {
             "en": {
-              "title": "Dashboard Analitik Penjualan dan Pola Pembelian Toko Sembako",
-              "description": "Dashboard ini menyajikan analisis komprehensif terkait penjualan dan pola pembelian pada toko sembako. Visualisasi data mencakup produk dengan pendapatan terbesar, produk paling laku, tren penjualan dari waktu ke waktu, rata-rata nilai transaksi, serta segmentasi pelanggan berdasarkan gender, platform, dan kategori diskon. Dashboard ini dirancang untuk membantu pengambilan keputusan strategis berbasis data dalam pengelolaan stok, pemasaran, dan peningkatan penjualan.",
+              "title": "Sales Analytics and Customer Purchase Behavior Dashboard (Grocery Store)",
+              "description": "This dashboard presents a comprehensive analysis of sales performance and customer purchasing behavior in a grocery store. The visualizations include top revenue-generating products, best-selling items, sales trends over time, average transaction value, and customer segmentation based on gender, platform, and discount categories. <br><br>The dashboard is designed to support data-driven decision-making in inventory management, marketing strategies, and sales optimization.",
               "tags": [
                 "excel",
                 "pivot table",
                 "data analysis",
                 "data visualization",
+                "data cleaning",
+                "exploratory data analysis",
+                "dashboard"
+              ]
+            },
+            "id": {
+              "title": "Dashboard Analitik Penjualan dan Pola Pembelian Toko Sembako",
+              "description": "Dashboard ini menyajikan analisis komprehensif terkait penjualan dan pola pembelian pada toko sembako. Visualisasi mencakup produk dengan pendapatan terbesar, produk terlaris, tren penjualan dari waktu ke waktu, rata-rata nilai transaksi, serta segmentasi pelanggan berdasarkan gender, platform, dan kategori diskon. <br><br>Dashboard ini dirancang untuk mendukung pengambilan keputusan berbasis data dalam pengelolaan stok, strategi pemasaran, dan peningkatan penjualan.",
+              "tags": [
+                "excel",
+                "pivot table",
+                "analisis data",
+                "visualisasi data",
                 "data cleaning",
                 "exploratory data analysis",
                 "dashboard"
@@ -166,7 +217,7 @@
           "locales": {
             "en": {
               "title": "Indonesia Tourism Destination Analysis Dashboard",
-              "description": "Analisis performa destinasi wisata Indonesia menggunakan Power BI untuk mengevaluasi rating, distribusi kota, perilaku pengguna, serta identifikasi destinasi dengan value terbaik berdasarkan kombinasi harga dan kualitas.",
+              "description": "This project analyzes the performance of tourism destinations in Indonesia using Power BI, focusing on ratings, city distribution, user behavior, and identifying high-value destinations based on price and quality. <br><br>The dashboard provides insights to support data-driven decision-making in tourism analysis and destination evaluation.",
               "tags": [
                 "power bi",
                 "dax",
@@ -174,6 +225,18 @@
                 "data modeling",
                 "data cleaning",
                 "dashboard design"
+              ]
+            },
+            "id": {
+              "title": "Dashboard Analisis Destinasi Wisata Indonesia",
+              "description": "Proyek ini menganalisis performa destinasi wisata di Indonesia menggunakan Power BI dengan fokus pada rating, distribusi kota, perilaku pengguna, serta identifikasi destinasi dengan value terbaik berdasarkan harga dan kualitas. <br><br>Dashboard ini memberikan insight untuk mendukung pengambilan keputusan berbasis data dalam analisis pariwisata dan evaluasi destinasi.",
+              "tags": [
+                "power bi",
+                "dax",
+                "power query",
+                "pemodelan data",
+                "data cleaning",
+                "desain dashboard"
               ]
             }
           },
@@ -199,14 +262,26 @@
           "locales": {
             "en": {
               "title": "Microsoft Excel Training Program – SMP Falatehan",
-              "description": "Berperan sebagai trainer dalam program Pengabdian Kepada Masyarakat (PKM) untuk mengenalkan dan mengajarkan dasar Microsoft Excel kepada siswa SMP Falatehan. Kegiatan mencakup penyusunan materi, praktik langsung, serta dipublikasikan dalam jurnal nasional.",
+              "description": "Served as a trainer in a Community Service Program (PKM) to introduce and teach fundamental Microsoft Excel skills to junior high school students at SMP Falatehan. The program included developing training materials, conducting hands-on sessions, and resulted in publication in a national journal.",
               "tags": [
                 "microsoft excel",
                 "training",
-                "community project",
+                "community service",
                 "data literacy",
                 "team collaboration",
                 "education"
+              ]
+            },
+            "id": {
+              "title": "Program Pelatihan Microsoft Excel – SMP Falatehan",
+              "description": "Berperan sebagai trainer dalam program Pengabdian Kepada Masyarakat (PKM) untuk mengenalkan dan mengajarkan dasar Microsoft Excel kepada siswa SMP Falatehan. Kegiatan mencakup penyusunan materi, praktik langsung, serta dipublikasikan dalam jurnal nasional.",
+              "tags": [
+                "microsoft excel",
+                "pelatihan",
+                "pengabdian masyarakat",
+                "literasi data",
+                "kerja tim",
+                "pendidikan"
               ]
             }
           },
@@ -231,8 +306,22 @@
           "category": "utilities",
           "locales": {
             "en": {
-              "title": "FMCG Sales Peerformance Dashboard",
-              "description": "Dashboard interaktif yang dibuat menggunakan Power BI untuk menganalisis performa penjualan FMCG. Dashboard ini menampilkan metrik utama seperti total revenue, total order, dan total customer, serta berbagai visualisasi untuk mengeksplorasi tren penjualan bulanan, kota dengan revenue tertinggi, produk terlaris, kontribusi kategori terhadap revenue, dan distribusi status pesanan. Dengan adanya fitur filter interaktif, dashboard ini membantu pengguna dalam memahami pola data dan mendukung pengambilan keputusan berbasis data.",
+              "title": "FMCG Sales Performance Dashboard",
+              "description": "An interactive dashboard developed using Power BI to analyze FMCG sales performance. It presents key metrics such as total revenue, total orders, and total customers, along with visualizations to explore monthly sales trends, top-performing cities, best-selling products, category contributions to revenue, and order status distribution. <br><br>With interactive filtering features, the dashboard enables users to better understand data patterns and supports data-driven decision-making.",
+              "tags": [
+                "excel",
+                "sql",
+                "python",
+                "power bi",
+                "data cleaning",
+                "exploratory data analysis",
+                "data visualization",
+                "dashboard"
+              ]
+            },
+            "id": {
+              "title": "Dashboard Performa Penjualan FMCG",
+              "description": "Dashboard interaktif yang dibuat menggunakan Power BI untuk menganalisis performa penjualan FMCG. Dashboard ini menampilkan metrik utama seperti total revenue, total order, dan total customer, serta berbagai visualisasi untuk mengeksplorasi tren penjualan bulanan, kota dengan revenue tertinggi, produk terlaris, kontribusi kategori terhadap revenue, dan distribusi status pesanan. <br><br>Dengan fitur filter interaktif, dashboard ini membantu pengguna memahami pola data dan mendukung pengambilan keputusan berbasis data.",
               "tags": [
                 "excel",
                 "sql",
@@ -240,7 +329,7 @@
                 "power bi",
                 "data cleaning",
                 "eda",
-                "data visualization",
+                "visualisasi data",
                 "dashboard"
               ]
             }

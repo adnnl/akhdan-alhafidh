@@ -17,9 +17,17 @@
           "fallbackFaIcon": null,
           "fallbackFaIconColor": null,
           "locales": {
-            "en": {
+            "id": {
               "title": "Program Studi Teknik Informatika S1",
-              "description": "<ul><li>IPK: 3.74 / 4.00</li><li>Mempelajari dasar ilmu komputer dengan fokus pada pengolahan dan analisis data, meliputi struktur data, basis data, statistik, serta pengembangan perangkat lunak.</li><li><a href='https://drive.google.com/file/d/1TaU17x9G8BR7vP3tQr5jQAv_VIJm1QY5/view' target='_blank'>View Transkip Nilai</a></li><li><a href='https://openjournal.unpam.ac.id/index.php/JATIMIKA/article/view/53515' target='_blank'>View Journal Publication</a></li></ul>",
+              "description": "<ul><li>IPK: 3.74 / 4.00</li><li>Mempelajari dasar ilmu komputer dengan fokus pada pengolahan dan analisis data, meliputi struktur data, basis data, statistik, serta pengembangan perangkat lunak.</li><li><a href='https://drive.google.com/file/d/1TaU17x9G8BR7vP3tQr5jQAv_VIJm1QY5/view' target='_blank'>Lihat Transkip Nilai</a></li><li><a href='https://openjournal.unpam.ac.id/index.php/JATIMIKA/article/view/53515' target='_blank'>Lihat Journal Publication</a></li></ul>",
+              "province": "Banten",
+              "country": "Indonesia",
+              "institution": "Universitas Pamulang",
+              "tags": []
+            },
+            "en": {
+              "title": "Bachelor's Degree in Computer Science",
+              "description": "<ul><li>GPA: 3.74 / 4.00</li><li>Studied core computer science principles with a focus on data processing and analysis, including data structures, databases, statistics, and software development.</li><li><a href='https://drive.google.com/file/d/1TaU17x9G8BR7vP3tQr5jQAv_VIJm1QY5/view' target='_blank'>View Transcript</a></li><li><a href='https://openjournal.unpam.ac.id/index.php/JATIMIKA/article/view/53515' target='_blank'>View Journal Publication</a></li></ul>",
               "province": "Banten",
               "country": "Indonesia",
               "institution": "Universitas Pamulang",
@@ -50,9 +58,16 @@
           "fallbackFaIcon": null,
           "fallbackFaIconColor": null,
           "locales": {
-            "en": {
+            "id": {
               "title": "AI 4 Jobs",
               "description": "Terpilih sebagai peserta Program MSIB Batch 6 pada pelatihan AI 4 Jobs yang berfokus pada fundamental Artificial Intelligence, logika dan siklus AI, serta implementasi Python dalam pengolahan dan visualisasi data untuk pengembangan solusi berbasis teknologi.",
+              "country": "Indonesia",
+              "institution": "Orbit Future Academy | PT. Orbit Ventura Indonesia",
+              "tags": []
+            },
+            "en": {
+              "title": "AI 4 Jobs",
+              "description": "Selected as a participant in the MSIB Batch 6 program for the AI 4 Jobs training, which focuses on the fundamentals of Artificial Intelligence, AI logic and cycles, and the implementation of Python in data processing and visualization for developing technology-based solutions.",
               "country": "Indonesia",
               "institution": "Orbit Future Academy | PT. Orbit Ventura Indonesia",
               "tags": []
@@ -67,9 +82,17 @@
           "fallbackFaIcon": null,
           "fallbackFaIconColor": null,
           "locales": {
-            "en": {
+            "id": {
               "title": "Mini Course Data Analyst",
               "description": "Mengikuti program pengenalan Data Analyst yang membahas dasar analisis data, data cleaning, eksplorasi data, dan visualisasi menggunakan Microsoft Excel sebagai fondasi pengambilan keputusan berbasis data.",
+              "province": "Online",
+              "country": "Indonesia",
+              "institution": "RevoU | PT. Revolusi Cita Edukasi",
+              "tags": []
+            },
+            "en": {
+              "title": "Intro to Data Analytics",
+              "description": "Participated in an introductory Data Analyst program covering the basics of data analysis, data cleaning, data exploration, and visualization using Microsoft Excel as a foundation for data-driven decision-making.",
               "province": "Online",
               "country": "Indonesia",
               "institution": "RevoU | PT. Revolusi Cita Edukasi",
@@ -85,9 +108,17 @@
           "fallbackFaIcon": null,
           "fallbackFaIconColor": null,
           "locales": {
-            "en": {
+            "id": {
               "title": "SpecialSkill Bootcamp: Data Analyst",
               "description": "Menyelesaikan bootcamp Data Analyst yang mencakup statistik dasar, data preprocessing, data cleaning, Exploratory Data Analysis (EDA), serta visualisasi data untuk menghasilkan insight yang mendukung pengambilan keputusan berbasis data.",
+              "province": "Online",
+              "country": "Indonesia",
+              "institution": "Special Skill Indonesia | PT. Special Skill Indonesia",
+              "tags": []
+            },
+            "en": {
+              "title": "SpecialSkill Bootcamp: Data Analyst",
+              "description": "Completed a Data Analyst bootcamp covering basic statistics, data preprocessing, data cleaning, Exploratory Data Analysis (EDA), and data visualization to generate insights that support data-driven decision-making.",
               "province": "Online",
               "country": "Indonesia",
               "institution": "Special Skill Indonesia | PT. Special Skill Indonesia",
@@ -103,9 +134,16 @@
           "fallbackFaIcon": null,
           "fallbackFaIconColor": null,
           "locales": {
-            "en": {
+            "id": {
               "title": "Intensive Bootcamp 2 Weeks - Microsoft Excel",
               "description": "Mengikuti bootcamp Microsoft Excel yang berfokus pada pengolahan dan analisis data menggunakan formula lanjutan (IF, VLOOKUP, INDEX-MATCH), Pivot Table, dashboard interaktif, serta dasar VBA untuk otomatisasi reporting.",
+              "country": "Indonesia",
+              "institution": "KarirNex | PT. Ebiz Karisma Internasional",
+              "tags": []
+            },
+            "en": {
+              "title": "Intensive Bootcamp 2 Weeks - Microsoft Excel",
+              "description": "Participated in a Microsoft Excel bootcamp focused on data processing and analysis using advanced formulas (IF, VLOOKUP, INDEX-MATCH), Pivot Tables, interactive dashboards, and basic VBA for reporting automation.",
               "country": "Indonesia",
               "institution": "KarirNex | PT. Ebiz Karisma Internasional",
               "tags": []
@@ -121,6 +159,13 @@
           "fallbackFaIconColor": null,
           "locales": {
             "en": {
+              "title": "Bootcamp Data Analyst Using Excel, SQL, Python, & Power BI",
+              "description": "Completed an intensive 2-week Data Analyst bootcamp covering the end-to-end data analysis process, including data cleaning using Excel, SQL, and Python, data exploration and analysis with Python, and building interactive dashboards using Power BI. The mini project focused on FMCG sales data analysis to generate insights that support data-driven business decisions.",
+              "country": "Indonesia",
+              "institution": "KarirNex | PT. Ebiz Karisma Internasional",
+              "tags": []
+            },
+            "id": {
               "title": "Bootcamp Data Analyst Using Excel, SQL, Python, & Power BI",
               "description": "Menyelesaikan bootcamp Data Analyst intensif selama 2 minggu yang mencakup proses end-to-end analisis data, mulai dari data cleaning menggunakan Excel, SQL, dan Python, eksplorasi dan analisis data dengan Python, hingga pembuatan dashboard interaktif menggunakan Power BI. Mini project yang dikerjakan berfokus pada analisis data penjualan FMCG untuk menghasilkan insight yang dapat mendukung pengambilan keputusan bisnis.",
               "country": "Indonesia",
