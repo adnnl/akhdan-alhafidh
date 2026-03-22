@@ -64,7 +64,15 @@
       "value": "",
       "valueShort": "",
       "faIcon": "fa-solid fa-file-pdf",
-      "href": "/pdf/adanalhafidh.pdf",
+      "href": "/pdf/adanalhafidh-id.pdf",
+      "locales": {
+        "en": {
+          "href": "/pdf/adanalhafidh-en.pdf"
+        },
+        "id": {
+          "href": "/pdf/adanalhafidh-id.pdf"
+        }
+      },
       "copy": false
     },
     {

@@ -3,7 +3,14 @@
     {
       "id": 1,
       "component": "ArticleTimeline",
-      "locales": {},
+      "locales": {
+        "id": {
+          "title": "*Pendidikan* Formal"
+        },
+        "en": {
+          "title": "Formal *Education* "
+        }
+      },
       "settings": {
         "order_items_by": "id",
         "order_items_sort": "desc"
@@ -43,6 +50,9 @@
       "locales": {
         "en": {
           "title": "*Courses*, Training, & Bootcamps"
+        },
+        "id": {
+          "title": "*Kursus*, Pelatihan, & Bootcamp"
         }
       },
       "settings": {
