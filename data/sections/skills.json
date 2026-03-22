@@ -255,7 +255,8 @@
       "id": 3,
       "component": "ArticleSkills",
       "locales": {
-        "en": { "title": "Languages" }
+        "en": { "title": "Languages" },
+        "id": { "title": "Bahasa" }
       },
       "settings": {
         "order_items_by": "id",
@@ -312,7 +313,8 @@
       "id": 4,
       "component": "ArticleSkills",
       "locales": {
-        "en": { "title": "Other Tools" }
+        "en": { "title": "Other Tools" },
+        "id": { "title": "Alat Lainnya" }
       },
       "settings": {
         "order_items_by": "id",
