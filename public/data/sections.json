@@ -9,13 +9,13 @@
       "locales": {
         "en": {
           "title": "About *Me*",
-          "title_short": "Welcome!",
+          "title_short": "About *Me*",
           "description": null,
           "nav_label": "About"
         },
         "id": {
           "title": "Tentang *Saya*",
-          "title_short": "Selamat Datang!",
+          "title_short": "Tentang *Saya*",
           "description": null,
           "nav_label": "Tentang"
         }

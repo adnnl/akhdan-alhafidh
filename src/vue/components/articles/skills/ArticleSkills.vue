@@ -31,7 +31,7 @@
 </template>
 
 <script setup>
-import { computed } from "vue";
+import { computed, inject } from "vue";
 import Article from "/src/vue/components/articles/base/Article.vue";
 import ArticleSkillsItem from "/src/vue/components/articles/skills/ArticleSkillsItem.vue";
 import ArticleSkillsPieChart from "/src/vue/components/articles/skills/ArticleSkillsPieChart.vue";
@@ -43,6 +43,9 @@ const props = defineProps({
     required: true,
   },
 });
+
+/** @type {Boolean} */
+const isMobileLayout = inject("isMobileLayout");
 
 const chartType = computed(() => {
   return props.model.getSetting("chart", null);
@@ -62,15 +65,26 @@ const gutterClass = computed(() => {
   return "gx-2 gx-xl-3 gx-xxl-4 gy-3 gy-md-4 gy-xl-3 gy-xxl-4";
 });
 
+const isOtherTools = computed(() => {
+  return props.model.id === 4;
+});
+
+const effectiveMaxItemsPerLine = computed(() => {
+  if (isMobileLayout.value) {
+    return isOtherTools.value ? 6 : 1;
+  }
+  return isOtherTools.value ? 12 : 2;
+});
+
 const colClass = computed(() => {
-  const colWidth = Math.floor(12 / maxItemsPerLine.value);
+  const colWidth = Math.max(
+    1,
+    Math.min(12, Math.floor(12 / effectiveMaxItemsPerLine.value))
+  );
   return `col-${colWidth}`;
 });
 
-const colClassWithChart = computed(() => {
-  const colWidth = Math.floor(12 / maxItemsPerLine.value);
-  return `col-${colWidth}`;
-});
+const colClassWithChart = colClass;
 </script>
 
 <style lang="scss" scoped>

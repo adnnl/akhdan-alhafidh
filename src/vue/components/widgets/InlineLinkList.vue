@@ -1,7 +1,7 @@
 <template>
     <ul class="inline-list eq-h6">
         <li v-for="item in items" class="inline-list-item">
-            <a :class="item.href ? `link-darkened` : `link-disabled`" :href="item.getHref ? item.getHref(localize) : item.href">
+            <a :class="item.href ? `link-darkened` : `link-disabled`" :href="item.href">
                 <i v-if="item.faIcon" :class="item.faIcon"/>
                 <span v-html="item.getValue(localize, true)"/>
             </a>
