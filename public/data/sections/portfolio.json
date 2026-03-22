@@ -10,6 +10,13 @@
           "category_productivity": "Software Projects",
           "category_social": "Community",
           "category_utilities": "Data Analytics"
+        },
+        "id": {
+          "title": null,
+          "category_all": "Semua",
+          "category_productivity": "Proyek Perangkat Lunak",
+          "category_social": "Sosial",
+          "category_utilities": "Analitik Data"
         }
       },
       "settings": {

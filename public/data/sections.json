@@ -37,7 +37,7 @@
         "id": {
           "title": "*Pendidikan*",
           "title_short": null,
-          "description": "Latar belakang pendidikan dan fondasi akademik saya.",
+          "description": "",
           "nav_label": "Pendidikan"
         }
       }
@@ -162,7 +162,7 @@
           "title": "*Kontak* Saya",
           "title_short": null,
           "description": "jangan ragu untuk menghubungi saya melalui formulir di bawah ini.",
-          "nav_label": "Kontakz"
+          "nav_label": "Kontak"
         }
       }
     }

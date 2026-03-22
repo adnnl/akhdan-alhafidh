@@ -1,6 +1,8 @@
 import Locales from "/src/models/Locales.js"
+import {useConstants} from "/src/composables/constants.js"
 import {useUtils} from "/src/composables/utils.js"
 
+const constants = useConstants()
 const utils = useUtils()
 
 export default class ContactOption {
@@ -14,8 +16,7 @@ export default class ContactOption {
         this._copy = jsonData["copy"]
 
         this._href = jsonData["href"] || null
-        if(this._href?.startsWith("/"))
-            this._href = utils.resolvePath(this._href)
+        // keep original href; normalization done in getHref()
     }
 
     /** @return {String} */
@@ -44,6 +45,37 @@ export default class ContactOption {
     /** @return {String} */
     get faIcon() {
         return this._faIcon
+    }
+
+    /**
+     * @param {Function} localizationClosure
+     * @return {String|null}
+     */
+    getHref(localizationClosure) {
+        let hrefValue = null
+
+        if(typeof localizationClosure === 'function') {
+            hrefValue = localizationClosure(this._locales, "href", true)
+        }
+
+        if(!hrefValue)
+            hrefValue = this._href
+
+        if(!hrefValue)
+            return null
+
+        if(typeof hrefValue !== 'string')
+            return hrefValue
+
+        const baseUrl = constants.BASE_URL || ''
+
+        if(/^https?:\/\//.test(hrefValue) || hrefValue.startsWith("//"))
+            return hrefValue
+
+        if(baseUrl && hrefValue.startsWith(baseUrl))
+            return hrefValue
+
+        return utils.resolvePath(hrefValue)
     }
 
     /** @return {String|null} */

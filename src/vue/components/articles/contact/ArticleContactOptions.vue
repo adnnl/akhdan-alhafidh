@@ -35,7 +35,7 @@ const contactLinks = computed(() => {
         return {
             faIcon: item.faIcon.replace('regular', 'solid'),
             label: localizeFromStrings(item.id).replace("locales.", ""),
-            href: item.href,
+            href: item.getHref(localize),
             value: item.getValue(localize, false),
             copy: item.copy
         }

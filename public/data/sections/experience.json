@@ -76,8 +76,11 @@
       "id": 2,
       "component": "ArticleTimeline",
       "locales": {
-        "en": {
+        "id": {
           "title": "*Pengalaman Lainnya*"
+        },
+        "en": {
+          "title": "*Other Experiences*"
         }
       },
       "items": [

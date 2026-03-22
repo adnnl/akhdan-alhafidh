@@ -29,14 +29,20 @@ const props = defineProps({
 })
 
 /** @type {Function} */
+const localize = inject("localize")
+
+/** @type {Function} */
 const localizeFromStrings = inject("localizeFromStrings")
 
 const parsedLinks = computed(() => {
-    return props.items.map(item => ({
-        href: item.href || "/",
-        label: localizeFromStrings(item.id).replace("locales.", ""),
-        faIcon: item.faIcon || "fa-solid fa-eye"
-    }))
+    return props.items.map(item => {
+        const href = item?.getHref ? item.getHref(localize) : item.href
+        return {
+            href: href || "/",
+            label: localizeFromStrings(item.id).replace("locales.", ""),
+            faIcon: item.faIcon || "fa-solid fa-eye"
+        }
+    })
 })
 
 const classList = computed(() => {
