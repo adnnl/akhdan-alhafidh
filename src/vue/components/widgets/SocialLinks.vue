@@ -31,9 +31,12 @@ const props = defineProps({
 /** @type {Function} */
 const localizeFromStrings = inject("localizeFromStrings");
 
+/** @type {Function} */
+const localize = inject("localize");
+
 const parsedLinks = computed(() => {
   return props.items.map((item) => ({
-    href: item.href || "/",
+    href: item.getHref ? item.getHref(localize) : (item.href || "/"),
     label: localizeFromStrings(item.id).replace("locales.", ""),
     faIcon: item.faIcon || "fa-solid fa-eye",
   }));

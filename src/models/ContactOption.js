@@ -1,70 +1,72 @@
-import Locales from "/src/models/Locales.js"
-import {useUtils} from "/src/composables/utils.js"
+import Locales from "/src/models/Locales.js";
+import { useUtils } from "/src/composables/utils.js";
 
-const utils = useUtils()
+const utils = useUtils();
 
 export default class ContactOption {
-    /** @constructs */
-    constructor(jsonData) {
-        this._id = jsonData["id"]
-        this._value = jsonData["value"]
-        this._valueShort = jsonData["valueShort"]
-        this._faIcon = jsonData["faIcon"]
-        this._locales = new Locales(jsonData["locales"] || {})
-        this._copy = jsonData["copy"]
+  /** @constructs */
+  constructor(jsonData) {
+    this._id = jsonData["id"];
+    this._value = jsonData["value"];
+    this._valueShort = jsonData["valueShort"];
+    this._faIcon = jsonData["faIcon"];
+    this._locales = new Locales(jsonData["locales"] || {});
+    this._copy = jsonData["copy"];
 
-        this._href = jsonData["href"] || null
-        if(this._href?.startsWith("/"))
-            this._href = utils.resolvePath(this._href)
+    this._href = jsonData["href"] || null;
+    if (this._href?.startsWith("/")) this._href = utils.resolvePath(this._href);
+  }
+
+  /** @return {String} */
+  get id() {
+    return this._id;
+  }
+
+  /**
+   * @param {Function} localizationClosure
+   * @param {Boolean} shorten
+   * @return {String}
+   */
+  getValue(localizationClosure, shorten) {
+    const key = shorten ? "valueShort" : "value";
+    const localizedKey = localizationClosure(this._locales, key, true);
+
+    if (localizedKey) return localizedKey;
+    return this.getStaticValue(shorten);
+  }
+
+  /** @return {String} */
+  getStaticValue(shorten) {
+    return shorten ? this._valueShort : this._value;
+  }
+
+  /** @return {String} */
+  get faIcon() {
+    return this._faIcon;
+  }
+  /**
+   * @param {Function} localizationClosure
+   * @return {String|null}
+   */
+  getHref(localizationClosure) {
+    if (typeof localizationClosure === "function") {
+      const localizedHref = localizationClosure(this._locales, "href", true);
+      if (localizedHref) {
+        if (localizedHref.startsWith("/"))
+          return utils.resolvePath(localizedHref);
+        return localizedHref;
+      }
     }
 
-    /** @return {String} */
-    get id() {
-        return this._id
-    }
+    return this._href;
+  }
+  /** @return {String|null} */
+  get href() {
+    return this._href;
+  }
 
-    /**
-     * @param {Function} localizationClosure
-     * @param {Boolean} shorten
-     * @return {String}
-     */
-    getValue(localizationClosure, shorten) {
-        const key = shorten ? "valueShort" : "value"
-        const localizedKey = localizationClosure(this._locales, key, true)
-
-        if(localizedKey) return localizedKey
-        return this.getStaticValue(shorten)
-    }
-
-    /** @return {String} */
-    getStaticValue(shorten) {
-        return shorten ? this._valueShort : this._value
-    }
-
-    /** @return {String} */
-    get faIcon() {
-        return this._faIcon
-    }
-    /**
-     * @param {Function} localizationClosure
-     * @return {String|null}
-     */
-    getHref(localizationClosure) {
-        if(typeof localizationClosure === 'function') {
-            const localizedHref = localizationClosure(this._locales, "href", true)
-            if(localizedHref)
-                return localizedHref
-        }
-
-        return this._href
-    }
-    /** @return {String|null} */
-    get href() {
-        return this._href
-    }
-
-    /** @return {Boolean} */
-    get copy() {
-        return this._copy || false
-    }
+  /** @return {Boolean} */
+  get copy() {
+    return this._copy || false;
+  }
 }
