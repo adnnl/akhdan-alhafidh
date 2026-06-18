@@ -20,8 +20,8 @@
       "id": "showcase",
       "faIcon": "fa-regular fa-folder-open",
       "locales": {
-        "en": { "nav_label": "Showcase" },
-        "id": { "nav_label": "Tampilan" }
+        "en": { "nav_label": "Portfolio" },
+        "id": { "nav_label": "Portofolio" }
       }
     },
     {

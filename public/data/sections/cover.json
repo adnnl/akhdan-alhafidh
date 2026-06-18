@@ -32,10 +32,10 @@
           "id": 2,
           "locales": {
             "id": {
-              "description": "<a href='#resume-section-portfolio' style='text-decoration: underline;'><small>Lihat project saya di sini →</small></a>"
+              "description": " "
             },
             "en": {
-              "description": "<a href='#resume-section-portfolio' style='text-decoration: underline;'><small>Check out my projects here →</small></a>"
+              "description": " "
             }
           }
         }

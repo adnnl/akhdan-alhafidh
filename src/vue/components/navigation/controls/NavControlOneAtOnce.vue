@@ -52,6 +52,13 @@ watch(
     _onScrollResetTriggered();
   }
 );
+watch(
+  () => currentSection.value,
+  () => {
+    console.log("CURRENT SECTION:", currentSection.value?.id);
+    _onSectionChanged();
+  }
+);
 
 onBeforeMount(() => {
   window.scrollTo({ top: 0, behavior: "instant" });
@@ -148,11 +155,6 @@ const _resetScrollForMobile = () => {
     offset = 0;
 
   if (window.location.hash) return;
-
-  window.scrollTo({
-    top: navMobileHeaderElHeight + offset,
-    behavior: "instant",
-  });
 };
 
 defineExpose({
