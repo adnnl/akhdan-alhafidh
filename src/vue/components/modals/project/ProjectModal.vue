@@ -130,6 +130,7 @@ div.project-modal-icon-view {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 1rem;
   margin-right: 1rem;
   min-width: 240px;
   max-width: 280px;
