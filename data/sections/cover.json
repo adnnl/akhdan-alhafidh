@@ -20,10 +20,10 @@
           "id": 1,
           "locales": {
             "id": {
-              "description": "Lulusan Teknik Informatika dengan minat kuat di bidang analisis data dan visualisasi data. Memiliki pengalaman dalam membersihkan, mengolah, dan menganalisis data menggunakan Excel, SQL, dan Python, serta membangun dashboard interaktif menggunakan Power BI untuk menghasilkan insight yang mendukung pengambilan keputusan."
+              "description": "<p style='text-align: justify;'>Lulusan Teknik Informatika Universitas Pamulang dengan minat kuat di bidang analisis data dan visualisasi. Berpengalaman dalam membersihkan, mengolah, dan menganalisis data menggunakan Excel, SQL, dan Python, serta membangun dashboard interaktif di Power BI untuk menghasilkan insight yang mendukung pengambilan keputusan. Memiliki latar belakang tambahan di pengembangan sistem berbasis data mulai dari pipeline preprocessing NLP hingga implementasi sistem pendukung keputusan yang dipublikasikan dalam jurnal ilmiah nasional."
             },
             "en": {
-              "description": "A graduate of Computer Science with a strong interest in data analysis and data visualization. Experienced in cleaning, processing, and analyzing data using Excel, SQL, and Python, as well as building interactive dashboards using Power BI to generate insights that support decision-making."
+              "description": "<p style='text-align: justify;'>Informatics Engineering graduate from Universitas Pamulang with a strong interest in data analysis and visualization. Experienced in cleaning, processing, and analyzing data using Excel, SQL, and Python, and building interactive dashboards in Power BI to generate insights that support data-driven decision making. Backed by hands-on experience in end-to-end data workflows from NLP preprocessing pipelines to implementing data-driven decision support systems published in a national scientific journal."
             }
           }
         },
@@ -32,10 +32,10 @@
           "id": 2,
           "locales": {
             "id": {
-              "description": "Saya percaya bahwa data yang diolah dengan tepat dapat memberikan insight yang bernilai dan membantu pengambilan keputusan yang lebih akurat."
+              "description": "<a href='#resume-section-portfolio' style='text-decoration: underline;'><small>Lihat project saya di sini →</small></a>"
             },
             "en": {
-              "description": "I believe that properly processed data can provide valuable insights and help make more accurate decisions."
+              "description": "<a href='#resume-section-portfolio' style='text-decoration: underline;'><small>Check out my projects here →</small></a>"
             }
           }
         }

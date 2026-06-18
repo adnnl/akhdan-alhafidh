@@ -27,13 +27,20 @@
         {
           "id": 3,
           "img": "images/portfolio/BengBOT3.png",
+          "gallery": [
+            "images/portfolio/bb1.png",
+            "images/portfolio/bb2.png",
+            "images/portfolio/bb3.png",
+            "images/portfolio/bb4.png",
+            "images/portfolio/bb5.png"
+          ],
           "fallbackFaIcon": "",
           "fallbackFaIconColor": null,
           "category": "productivity",
           "locales": {
             "en": {
               "title": "BengBOT - AI Chatbot for Motorcycle Workshop Customer Service",
-              "description": "<b>*BengBOT*</b> is an Artificial Intelligence-based chatbot developed using Python, Flask, and TensorFlow. It utilizes Natural Language Processing (NLP) techniques to understand user input and classify intents before generating appropriate responses. <br><br> This project demonstrates the integration of machine learning into a web application, covering the full pipeline from data preprocessing and model training to deployment.",
+              "description": "This project developed an NLP-based chatbot named BengBOT to automate customer service for a Yamaha motorcycle workshop, built as the final capstone project of the AI 4 Jobs independent study program at Orbit Future Academy. The focus was on end-to-end data pipeline execution from raw data acquisition and multi-step text preprocessing through to model training, evaluation, and web deployment using a JSON dataset containing product information, transaction history, and customer FAQs as the primary data source.<ul><li>Acquired and structured raw text data from multiple sources (CRM system, web scraping, Yamaha knowledge base) into a JSON dataset covering 95 intent categories and 408 unique vocabulary tokens</li><li>Executed a 5-stage text preprocessing pipeline using Python and NLTK: punctuation removal, lemmatization, tokenization, sequence padding, and label encoding (sklearn LabelEncoder) to transform raw text into model-ready numerical format</li><li>Built and trained an LSTM model (TensorFlow/Keras) with Input → Embedding → LSTM → Flatten → Dense architecture, trained over 500 epochs achieving 99% training accuracy with loss of 0.0163</li><li>Evaluated model performance through accuracy and loss curve visualization, confirming good fit with model stabilizing after approximately 200 epochs</li><li>Deployed the chatbot as a Flask-based web application with HTML/CSS/JS frontend, publicly accessible via Ngrok tunneling</li></ul>",
               "tags": [
                 "artificial intelligence",
                 "chatbot",
@@ -46,7 +53,7 @@
             },
             "id": {
               "title": "BengBOT - Chatbot AI untuk Layanan Pelanggan Bengkel Motor",
-              "description": "<b>*BengBOT*</b> adalah chatbot berbasis Artificial Intelligence yang dikembangkan menggunakan Python, Flask, dan TensorFlow. Chatbot ini memanfaatkan teknik Natural Language Processing (NLP) untuk memahami input pengguna dan mengklasifikasikan intent sebelum menghasilkan respons yang sesuai. <br><br> Proyek ini merupakan implementasi integrasi machine learning ke dalam aplikasi web, mencakup seluruh proses mulai dari preprocessing data, pelatihan model, hingga deployment.",
+              "description": "Proyek ini mengembangkan chatbot berbasis NLP bernama BengBOT untuk mengotomatisasi layanan pelanggan bengkel motor Yamaha, sebagai proyek capstone akhir program Studi Independen AI 4 Jobs di Orbit Future Academy. Fokus utama proyek ini adalah eksekusi pipeline data secara end-to-end mulai dari akuisisi data mentah dan preprocessing teks multi-tahap hingga pelatihan model, evaluasi, dan deployment berbasis web menggunakan dataset JSON yang berisi informasi produk, riwayat transaksi, dan FAQ pelanggan sebagai sumber data utama.<ul><li>Mengakuisisi dan menyusun data teks mentah dari berbagai sumber (sistem CRM, web scraping, pusat pengetahuan Yamaha) ke dalam dataset JSON yang mencakup 95 kategori intent dan 408 token vocabulary unik</li><li>Mengeksekusi pipeline preprocessing teks 5 tahap menggunakan Python dan NLTK: penghapusan tanda baca, lemmatisasi, tokenisasi, sequence padding, dan label encoding (sklearn LabelEncoder) untuk mengubah teks mentah menjadi format numerik yang siap dimodelkan</li><li>Membangun dan melatih model LSTM (TensorFlow/Keras) dengan arsitektur Input → Embedding → LSTM → Flatten → Dense, dilatih selama 500 epoch dengan hasil akurasi pelatihan 99% dan loss 0.0163</li><li>Mengevaluasi performa model melalui visualisasi kurva akurasi dan loss, mengkonfirmasi good fit dengan model yang stabil setelah sekitar 200 epoch</li><li>Melakukan deployment chatbot sebagai aplikasi web berbasis Flask dengan frontend HTML/CSS/JS, dapat diakses publik melalui Ngrok tunneling</li></ul>",
               "tags": [
                 "kecerdasan buatan",
                 "chatbot",
@@ -79,13 +86,25 @@
         {
           "id": 4,
           "img": "images/portfolio/spk-mfep.png",
+          "gallery": [
+            "images/portfolio/mfep1.png",
+            "images/portfolio/mfep2.png",
+            "images/portfolio/mfep3.png",
+            "images/portfolio/mfep4.png",
+            "images/portfolio/mfep5.png",
+            "images/portfolio/mfep6.png",
+            "images/portfolio/mfep7.png",
+            "images/portfolio/mfep8.png",
+            "images/portfolio/mfep9.png",
+            "images/portfolio/mfep10.png"
+          ],
           "fallbackFaIcon": "",
           "fallbackFaIconColor": null,
           "category": "productivity",
           "locales": {
             "en": {
               "title": "Decision Support System for Outstanding Student Ranking (MFEP)",
-              "description": "<b>DSS - MFEP</b> is a web-based decision support system that implements the Multi Factor Evaluation Process (MFEP) method to evaluate and rank students based on measurable criteria. The system is designed to produce objective, transparent, and structured decisions in identifying outstanding and high-achieving students. <br><br> It helps administrators streamline the selection process and reduce subjectivity in decision-making.",
+              "description": "This research developed a web-based Decision Support System (DSS) to objectively determine outstanding students at PPTQ Darussunnah Parung Bogor, replacing a previously subjective and manual selection process. The MultiFactor Evaluation Process (MFEP) method was selected for its ability to combine both religious and academic criteria simultaneously covering Qur'an memorization, recitation fluency, character, report card scores, competition participation, language ability, and organizational involvement into a single measurable final score. The system was built using PHP and MySQL following the Waterfall development model, producing automated rankings across 30 active Grade 12 students with the top-performing student achieving a total evaluation score of 0.888.<ul><li>Defined 7 weighted evaluation criteria using the MFEP method, with Qur'an memorization as the dominant factor (weight 0.4) and all criteria weights summing to 1</li><li>Designed measurable sub-criteria for each criterion including a 1–30 juz memorization scale, a 1–10 report card score scale, and qualitative scales for character and recitation fluency to ensure consistent data input across all alternatives</li><li>Implemented automated MFEP calculations across three sequential stages: Factor Evaluation (EF = x/x max), Weighted Evaluation (WE = FW × EF), and Total Evaluation (∑WE) to produce objective rankings for 30 student alternatives</li><li>Built a web application using PHP and MySQL with features for managing criteria, sub-criteria, alternative scoring input, and a results page displaying EF, WE, and final ranking tables</li><li>Generated objective rankings from 30 Grade 12 students, with the top 5 designated as outstanding students based on highest total evaluation scores ranging from 0.782 to 0.888</li></ul>",
               "tags": [
                 "php",
                 "decision support system",
@@ -97,7 +116,7 @@
             },
             "id": {
               "title": "Sistem Pendukung Keputusan Pemeringkatan Santri Unggul & Berprestasi",
-              "description": "<b>SPK - MFEP</b> adalah sistem pendukung keputusan berbasis web yang mengimplementasikan metode Multi Factor Evaluation Process (MFEP) untuk mengevaluasi dan memeringkat santri berdasarkan kriteria yang terukur. Sistem ini dirancang untuk menghasilkan keputusan yang objektif, transparan, dan terstruktur dalam menentukan santri unggul dan berprestasi. <br><br> Sistem ini membantu pengelola dalam mempercepat proses seleksi serta meminimalkan subjektivitas dalam pengambilan keputusan.",
+              "description": "Penelitian ini mengembangkan Sistem Pendukung Keputusan (SPK) berbasis web untuk menentukan santri unggul dan berprestasi di PPTQ Darussunnah Parung Bogor, yang sebelumnya masih dilakukan secara subjektif dan manual. Metode MultiFactor Evaluation Process (MFEP) dipilih karena mampu menggabungkan kriteria keagamaan dan akademik sekaligus mencakup hafalan Al-Qur'an, kelancaran membaca, akhlak, nilai rapor, keaktifan lomba, kemampuan bahasa, dan partisipasi organisasi menjadi skor akhir yang objektif dan terukur. Sistem dibangun menggunakan PHP dan MySQL dengan model pengembangan Waterfall, menghasilkan perangkingan otomatis dari 30 santri kelas 12 dengan santri terbaik memperoleh total skor evaluasi 0,888.<ul><li>Mendefinisikan 7 kriteria penilaian beserta bobot masing-masing menggunakan metode MFEP, dengan hafalan Al-Qur'an sebagai faktor dominan (bobot 0,4) dan total bobot keseluruhan kriteria bernilai 1</li><li>Merancang subkriteria terukur untuk setiap kriteria termasuk skala hafalan 1–30 juz, skala nilai rapor 1–10, dan skala kualitatif untuk akhlak dan kelancaran membaca sebagai dasar input data yang konsisten</li><li>Mengimplementasikan perhitungan MFEP secara otomatis melalui tiga tahap: Evaluasi Faktor (EF = x/x max), Bobot Evaluasi (WE = FW × EF), dan Total Evaluasi (∑WE) untuk menghasilkan perangkingan 30 alternatif santri</li><li>Membangun aplikasi web menggunakan PHP dan MySQL dengan fitur manajemen kriteria, subkriteria, input penilaian alternatif, dan halaman perhitungan hasil yang menampilkan tabel EF, WE, dan perangkingan akhir</li><li>Menghasilkan perangkingan objektif dari 30 santri kelas 12, dengan 5 santri teratas ditetapkan sebagai santri unggul berdasarkan skor total evaluasi tertinggi (0,888 – 0,782)</li></ul>",
               "tags": [
                 "php",
                 "sistem pendukung keputusan",
@@ -124,13 +143,28 @@
         {
           "id": 2,
           "img": "images/portfolio/ternakk.png",
+          "gallery": [
+            "images/portfolio/Slide1.PNG",
+            "images/portfolio/Slide2.PNG",
+            "images/portfolio/Slide3.PNG",
+            "images/portfolio/Slide4.PNG",
+            "images/portfolio/Slide5.PNG",
+            "images/portfolio/Slide6.PNG",
+            "images/portfolio/Slide7.PNG",
+            "images/portfolio/Slide8.PNG",
+            "images/portfolio/Slide9.PNG",
+            "images/portfolio/Slide10.PNG",
+            "images/portfolio/Slide11.PNG",
+            "images/portfolio/Slide12.PNG",
+            "images/portfolio/Slide13.PNG"
+          ],
           "fallbackFaIcon": "",
           "fallbackFaIconColor": null,
           "category": "utilities",
           "locales": {
             "en": {
               "title": "Livestock Population Analysis Dashboard - Central Java (2019–2024)",
-              "description": "This project is an exploratory analysis of livestock population growth in Central Java from 2019 to 2024 using Microsoft Excel (Pivot Tables & Pivot Charts). <br><br>The analysis focuses on commodity growth, production centers, annual fluctuations, regional contributions, and population concentration to generate data-driven insights. <br><br>The results highlight a significant increase in broiler chicken populations and the dominance of regencies as key livestock production centers.",
+              "description": "The livestock sector is a critical component of regional food security and economic stability, yet Central Java's livestock population data was scattered across 6 separate annual files on the Central Java Data Portal never previously analyzed in an integrated, cross-year manner. This project was built to fill that gap, analyzing growth patterns, regional distribution, and production concentration over the 2019–2024 period as a basis for livestock sector development recommendations.<ul><li>Integrated 6 Excel files from a public data source into a single unified dataset with key variables: year, regency/city, regional category, livestock type, and population count</li><li>Formulated 5 structured business questions: Commodity Growth, Production Centers, Annual Fluctuation, Regional Contribution, and Population Concentration</li><li>Used Pivot Tables and Pivot Charts for trend analysis, inter-regional comparisons, and proportional distribution</li><li>Uncovered key insights: Broiler Chicken grew by 416 million heads with an extreme spike in 2024, Demak Regency dominated as the largest production center (34% of the top 5 regencies), and regency-level areas contributed 98–99% of the total population</li><li>Developed 5 data-driven strategic recommendations covering commodity strengthening, production center optimization, and regional development equalization</li></ul>",
               "tags": [
                 "excel",
                 "pivot table",
@@ -143,7 +177,7 @@
             },
             "id": {
               "title": "Dashboard Analisis Populasi Ternak Jawa Tengah (2019–2024)",
-              "description": "Proyek ini merupakan analisis eksploratif terhadap perkembangan populasi ternak di Jawa Tengah periode 2019–2024 menggunakan Microsoft Excel (Pivot Table & Pivot Chart). <br><br>Analisis difokuskan pada pertumbuhan komoditas, sentra produksi, fluktuasi tahunan, kontribusi wilayah, dan konsentrasi populasi untuk menghasilkan insight berbasis data. <br><br>Hasil analisis menunjukkan peningkatan signifikan pada komoditas ayam ras broiler serta dominasi wilayah kabupaten sebagai pusat produksi ternak.",
+              "description": "Sektor peternakan merupakan komponen penting dalam ketahanan pangan dan ekonomi daerah, namun data populasi ternak di Jawa Tengah tersebar dalam 6 file terpisah per tahun di Portal Data Jawa Tengah belum pernah dianalisis secara terpadu lintas waktu. Proyek ini hadir untuk mengisi gap tersebut, menganalisis pola pertumbuhan, distribusi wilayah, dan konsentrasi produksi selama periode 2019–2024 sebagai dasar rekomendasi pengembangan sektor peternakan.<ul><li>Mengintegrasikan 6 file Excel dari sumber data publik menjadi satu dataset terpadu dengan variabel kunci: tahun, kab/kota, kategori wilayah, jenis ternak, dan jumlah populasi</li><li>Merumuskan 5 pertanyaan bisnis terstruktur: Growth Komoditas, Sentra Produksi, Fluktuasi Tahunan, Kontribusi Wilayah, dan Konsentrasi Populasi</li><li>Menggunakan Pivot Table dan Pivot Chart untuk analisis tren, perbandingan antar wilayah, dan distribusi proporsi</li><li>Menemukan insight kunci: Ayam Ras Broiler tumbuh 416 juta ekor dengan lonjakan ekstrem di 2024, Kab. Demak mendominasi sebagai sentra produksi terbesar (34% dari top 5 kabupaten), dan wilayah kabupaten berkontribusi 98-99% dari total populasi</li><li>Menyusun 5 rekomendasi strategis berbasis data untuk penguatan komoditas, optimalisasi sentra produksi, dan pemerataan pengembangan wilayah</li></ul>",
               "tags": [
                 "excel",
                 "pivot table",
@@ -171,13 +205,18 @@
         {
           "id": 1,
           "img": "images/portfolio/apppts.png",
+          "gallery": [
+            "images/portfolio/tokosembako1.png",
+            "images/portfolio/tokosembako2.png",
+            "images/portfolio/tokosembako3.png"
+          ],
           "fallbackFaIcon": "",
           "fallbackFaIconColor": null,
           "category": "utilities",
           "locales": {
             "en": {
               "title": "Sales Analytics and Customer Purchase Behavior Dashboard (Grocery Store)",
-              "description": "This dashboard presents a comprehensive analysis of sales performance and customer purchasing behavior in a grocery store. The visualizations include top revenue-generating products, best-selling items, sales trends over time, average transaction value, and customer segmentation based on gender, platform, and discount categories. <br><br>The dashboard is designed to support data-driven decision-making in inventory management, marketing strategies, and sales optimization.",
+              "description": "This bootcamp was attended to deepen data analysis skills using Microsoft Excel, one of the most widely used tools in the workplace — especially for entry-level Data Analyst roles. The dataset used was fictional staple goods transaction data that reflects real retail business conditions, covering order information, products, cities, platforms, payment methods, and customer ratings.<ul><li>Transformed raw data into a structured Excel Table as the foundation for analysis</li><li>Applied AVERAGEIF, SUMIF, SUMIFS, and COUNTA+UNIQUE to answer specific business questions</li><li>Created a new category column (Disc Category) using nested IFS function with 6 conditional tiers based on discount value ranges</li><li>Performed multi-dimensional analysis using Pivot Table with combinations of rows, columns, values, and filters</li><li>Built an interactive dashboard featuring 4 KPI scorecards, 5 charts, 3 slicers, and 1 timeline filter</li>",
               "tags": [
                 "excel",
                 "pivot table",
@@ -190,7 +229,7 @@
             },
             "id": {
               "title": "Dashboard Analitik Penjualan dan Pola Pembelian Toko Sembako",
-              "description": "Dashboard ini menyajikan analisis komprehensif terkait penjualan dan pola pembelian pada toko sembako. Visualisasi mencakup produk dengan pendapatan terbesar, produk terlaris, tren penjualan dari waktu ke waktu, rata-rata nilai transaksi, serta segmentasi pelanggan berdasarkan gender, platform, dan kategori diskon. <br><br>Dashboard ini dirancang untuk mendukung pengambilan keputusan berbasis data dalam pengelolaan stok, strategi pemasaran, dan peningkatan penjualan.",
+              "description": "Bootcamp ini diikuti dengan tujuan memperdalam kemampuan analisis data menggunakan Microsoft Excel sebagai tools yang paling umum digunakan di dunia kerja, khususnya untuk peran Data Analyst entry level. Dataset yang digunakan adalah data transaksi sembako fiktif yang mencerminkan kondisi bisnis ritel nyata mencakup informasi order, produk, kota, platform, metode pembayaran, hingga rating pelanggan.<ul><li>Mengubah data mentah menjadi Excel Table terstruktur sebagai fondasi analisis</li><li>Menggunakan AVERAGEIF, SUMIF, SUMIFS, dan COUNTA+UNIQUE untuk menjawab pertanyaan bisnis spesifik</li><li>Membuat kolom kategori baru (Disc Category) menggunakan fungsi IFS dengan 6 kondisi bertingkat</li><li>Menganalisis data multi-dimensi menggunakan Pivot Table dengan kombinasi rows, columns, values, dan filter</li><li>Membangun dashboard interaktif dengan 4 KPI scorecard, 5 chart, 3 slicer, dan 1 timeline filter</li></ul>",
               "tags": [
                 "excel",
                 "pivot table",
@@ -218,13 +257,18 @@
         {
           "id": 5,
           "img": "images/portfolio/itd.png",
+          "gallery": [
+            "images/portfolio/idt1.png",
+            "images/portfolio/idt2.png",
+            "images/portfolio/idt3.png"
+          ],
           "fallbackFaIcon": "",
           "fallbackFaIconColor": null,
           "category": "utilities",
           "locales": {
             "en": {
               "title": "Indonesia Tourism Destination Analysis Dashboard",
-              "description": "This project analyzes the performance of tourism destinations in Indonesia using Power BI, focusing on ratings, city distribution, user behavior, and identifying high-value destinations based on price and quality. <br><br>The dashboard provides insights to support data-driven decision-making in tourism analysis and destination evaluation.",
+              "description": "Indonesia's tourism industry has hundreds of destinations with highly varied pricing and quality, yet there has been little analysis that objectively measures the 'value' of a destination does a higher price truly reflect better quality? This project used a public dataset from Kaggle consisting of 4 separate tables (Tourism, Tourism Rating, User, Package Tourism) with a total of 437 destinations, 300 users, and 10,000 reviews to answer that question.<ul><li>Integrated 4 tables of the dataset using Power Query with data cleaning and format transformation processes</li><li>Built a star schema data model with one-to-many relationships between tables to ensure integrity and performance of analysis</li><li>Created DAX measures for Value Index as a new metric that combines rating and price proportionally</li><li>Analyzed destination performance based on ratings, city distribution, and tourism categories</li><li>Compared user behavior patterns based on age group segmentation (Adult vs Teenagers)</li><li>Produced 3 pages of interactive dashboards: Destination Performance, User Behavior, and Business Insight & Value Analysis</li></ul> ",
               "tags": [
                 "power bi",
                 "dax",
@@ -236,7 +280,7 @@
             },
             "id": {
               "title": "Dashboard Analisis Destinasi Wisata Indonesia",
-              "description": "Proyek ini menganalisis performa destinasi wisata di Indonesia menggunakan Power BI dengan fokus pada rating, distribusi kota, perilaku pengguna, serta identifikasi destinasi dengan value terbaik berdasarkan harga dan kualitas. <br><br>Dashboard ini memberikan insight untuk mendukung pengambilan keputusan berbasis data dalam analisis pariwisata dan evaluasi destinasi.",
+              "description": "Industri pariwisata Indonesia memiliki ratusan destinasi dengan variasi harga dan kualitas yang sangat beragam, namun belum banyak analisis yang mencoba mengukur 'value' sebuah destinasi secara objektif apakah harga yang lebih mahal benar-benar mencerminkan kualitas yang lebih baik? Proyek ini menggunakan dataset publik dari Kaggle yang terdiri dari 4 tabel terpisah (Tourism, Tourism Rating, User, Package Tourism) dengan total 437 destinasi, 300 user, dan 10.000 review untuk menjawab tersebut.<ul><li>Mengintegrasikan 4 tabel dataset menggunakan Power Query dengan proses data cleaning dan transformasi format</li><li>Membangun star schema data model dengan relasi one-to-many antar tabel untuk memastikan integritas dan performa analisis</li><li>Membuat DAX measure untuk Value Index sebagai metrik baru yang mengombinasikan rating dan harga secara proporsional</li><li>Menganalisis performa destinasi berdasarkan rating, distribusi kota, dan kategori wisata</li><li>Membandingkan pola perilaku pengguna berdasarkan segmentasi kelompok usia (Dewasa vs Remaja)</li><li>Menghasilkan 3 halaman dashboard interaktif: Performa Destinasi, Perilaku Pengguna, dan Business Insight & Value Analysis</li></ul>",
               "tags": [
                 "power bi",
                 "dax",
@@ -263,13 +307,23 @@
         {
           "id": 6,
           "img": "images/portfolio/pkm.png",
+          "gallery": [
+            "images/portfolio/pkm4.jpg",
+            "images/portfolio/pkm1.jpg",
+            "images/portfolio/pkm2.jpg",
+            "images/portfolio/pkm3.jpg",
+            "images/portfolio/pkm5.jpg",
+            "images/portfolio/pkm6.jpg",
+            "images/portfolio/pkm7.jpg",
+            "images/portfolio/pkm8.jpg"
+          ],
           "fallbackFaIcon": "",
           "fallbackFaIconColor": null,
           "category": "social",
           "locales": {
             "en": {
               "title": "Microsoft Excel Training Program – SMP Falatehan",
-              "description": "Served as a trainer in a Community Service Program (PKM) to introduce and teach fundamental Microsoft Excel skills to junior high school students at SMP Falatehan. The program included developing training materials, conducting hands-on sessions, and resulted in publication in a national journal.",
+              "description": "This community service activity focused on improving digital literacy among 7th-grade students at SMP Falatehan, South Tangerang, who had not previously received formal exposure to spreadsheet software. Microsoft Excel was selected as the primary subject due to its relevance in supporting teaching and learning activities spanning student data management, grade analysis, chart creation, and task management delivered through a seminar and hands-on workshop format. The activity was attended by all students of Class VIIA and resulted in measurable improvement in participants' understanding, demonstrated through active Q&A participation, with students able to independently operate basic Excel functions by the end of the session.<ul><li>Drafted the project proposal and developed Excel introductory materials covering key topics: definition, functions, educational use cases, interface components, advantages, and basic arithmetic operations</li><li>Coordinated task distribution among 10 team members as part of the technical preparation for the event</li><li>Facilitated hands-on workshop sessions on-site, guiding participants through basic arithmetic operators (+, -, *, /, %, ^) and data formatting in real-time</li><li>Compiled the final activity report as the official documentation of the entire PKM implementation</li><li>Published the activity results in an article in the Publikasitecno Journal titled 'Enhancing Digital Literacy Through Microsoft Excel Training for Middle School Students' as an academic contribution from this community service activity</li></ul>",
               "tags": [
                 "microsoft excel",
                 "training",
@@ -281,7 +335,7 @@
             },
             "id": {
               "title": "Program Pelatihan Microsoft Excel – SMP Falatehan",
-              "description": "Berperan sebagai trainer dalam program Pengabdian Kepada Masyarakat (PKM) untuk mengenalkan dan mengajarkan dasar Microsoft Excel kepada siswa SMP Falatehan. Kegiatan mencakup penyusunan materi, praktik langsung, serta dipublikasikan dalam jurnal nasional.",
+              "description": "Kegiatan pengabdian masyarakat ini berfokus pada peningkatan literasi digital siswa Kelas VII SMP Falatehan, Tangerang Selatan, yang sebelumnya belum mendapatkan paparan formal terhadap perangkat lunak spreadsheet. Microsoft Excel dipilih sebagai materi utama karena relevansinya dalam mendukung kegiatan belajar-mengajar mencakup pengelolaan data siswa, analisis nilai, pembuatan grafik, hingga manajemen tugas dengan metode penyampaian berupa seminar dan workshop praktik langsung. Kegiatan diikuti oleh seluruh siswa Kelas VIIA dan menghasilkan peningkatan pemahaman peserta yang terukur melalui sesi tanya jawab aktif, dengan peserta mampu mengoperasikan fungsi dasar Excel secara mandiri di akhir sesi.<ul><li>Menyusun proposal kegiatan dan materi pengenalan Excel mencakup topik definisi, fungsi, kegunaan dalam pendidikan, bagian-bagian antarmuka, kelebihan, dan operasi aritmatika dasar</li><li>Merancang pembagian jobdesk 10 anggota tim sebagai bagian dari persiapan teknis kegiatan</li><li>Memfasilitasi sesi workshop praktik langsung di lapangan, mendampingi peserta dalam mempraktikkan operator aritmatika dasar (+, -, *, /, %, ^) dan data formatting secara real-time</li><li>Menyusun laporan akhir kegiatan sebagai dokumentasi resmi pelaksanaan PKM secara menyeluruh</li><li>Publikasi hasil kegiatan dalam bentuk artikel di Jurnal Publikasitecno dengan judul 'Peningkatan Literasi Digital Melalui Pelatihan Microsoft Excel untuk Siswa SMP' sebagai kontribusi akademis dari kegiatan pengabdian masyarakat ini</li></ul>",
               "tags": [
                 "microsoft excel",
                 "pelatihan",
@@ -308,13 +362,18 @@
         {
           "id": 7,
           "img": "images/portfolio/fmcg.png",
+          "gallery": [
+            "images/portfolio/fmcg1.png",
+            "images/portfolio/fmcg2.png",
+            "images/portfolio/fmcg3.png"
+          ],
           "fallbackFaIcon": "",
           "fallbackFaIconColor": null,
           "category": "utilities",
           "locales": {
             "en": {
               "title": "FMCG Sales Performance Dashboard",
-              "description": "An interactive dashboard developed using Power BI to analyze FMCG sales performance. It presents key metrics such as total revenue, total orders, and total customers, along with visualizations to explore monthly sales trends, top-performing cities, best-selling products, category contributions to revenue, and order status distribution. <br><br>With interactive filtering features, the dashboard enables users to better understand data patterns and supports data-driven decision-making.",
+              "description": "This project aimed to simulate an end-to-end Data Analyst workflow using industry-relevant tools. The FMCG dataset with 20,000 transaction rows was intentionally prepared in a dirty condition containing duplicates, missing values, format inconsistencies, and invalid values to train the ability to systematically identify and resolve data quality issues before moving into the analysis phase.<ul><li>Identified and handled 10 data cleaning issues (duplicate order_id, missing values, invalid quantity value of -99, capitalization inconsistencies, date format errors, etc.)</li><li>Answered analytical questions in parallel using Excel (Pivot Table Distinct Count) and SQL (SELECT, COUNT DISTINCT, SUM, WHERE, GROUP BY, IN) for cross-validation of results</li><li>Used Python Pandas with groupby and aggregation methods to identify top 10 most active customers and product category performance per sales channel</li><li>Built DAX measures in Power BI to calculate Total Revenue, Total Orders, and Total Customers</li><liDelivered a Power BI dashboard with 5 visualizations and 2 interactive slicers for FMCG sales performance analysis</li><li>Delivered a Power BI dashboard with 5 visualizations and 2 interactive slicers for FMCG sales performance analysis</li></ul>",
               "tags": [
                 "excel",
                 "sql",
@@ -328,7 +387,7 @@
             },
             "id": {
               "title": "Dashboard Performa Penjualan FMCG",
-              "description": "Dashboard interaktif yang dibuat menggunakan Power BI untuk menganalisis performa penjualan FMCG. Dashboard ini menampilkan metrik utama seperti total revenue, total order, dan total customer, serta berbagai visualisasi untuk mengeksplorasi tren penjualan bulanan, kota dengan revenue tertinggi, produk terlaris, kontribusi kategori terhadap revenue, dan distribusi status pesanan. <br><br>Dengan fitur filter interaktif, dashboard ini membantu pengguna memahami pola data dan mendukung pengambilan keputusan berbasis data.",
+              "description": "Proyek ini bertujuan mensimulasikan alur kerja Data Analyst secara end-to-end menggunakan tools yang relevan di industri. Dataset FMCG dengan 20.000 baris transaksi sengaja disiapkan dalam kondisi kotor mengandung duplikasi, missing values, inkonsistensi format, hingga nilai tidak valid untuk melatih kemampuan identifikasi dan penanganan masalah data secara sistematis sebelum masuk ke tahap analisis.<ul><li>Mengidentifikasi dan menangani 10 isu data cleaning (duplikasi order_id, missing values, nilai quantity -99, inkonsistensi kapitalisasi, format tanggal, dll)</li><li>Menjawab pertanyaan analisis secara paralel menggunakan Excel (Pivot Table Distinct Count) dan SQL (SELECT, COUNT DISTINCT, SUM, WHERE, GROUP BY, IN) untuk validasi silang hasil</li><li>Menggunakan Python Pandas dengan metode groupby dan agregasi untuk mengidentifikasi top 10 pelanggan paling aktif dan performa kategori produk per channel</li><li>Membangun DAX measure di Power BI untuk menghitung Total Revenue, Total Orders, dan Total Customers</li><li>Menghasilkan dashboard Power BI dengan 5 visualisasi dan 2 slicer interaktif untuk analisis performa penjualan FMCG</li></ul>",
               "tags": [
                 "excel",
                 "sql",
