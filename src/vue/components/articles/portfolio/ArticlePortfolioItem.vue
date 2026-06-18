@@ -26,7 +26,10 @@
           class="portfolio-item-title"
           v-html="localize(item.locales, 'title')" />
 
-        <p class="portfolio-item-category" v-html="categoryName" />
+        <p
+          class="portfolio-item-category"
+          style="text-align: center"
+          v-html="categoryName" />
       </div>
     </div>
   </div>

@@ -89,3 +89,14 @@ a {
 p {
     font-family: $font-family-base;
 }
+
+// Responsive: justify certain description text on small screens for better layout
+@include media-breakpoint-down(sm) {
+    p.eq-h6,
+    .article-description p.eq-h6,
+    div.resume-section-header p.eq-h6 {
+        text-align: justify;
+        text-justify: inter-word;
+        hyphens: auto;
+    }
+}

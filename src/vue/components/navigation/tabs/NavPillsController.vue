@@ -72,11 +72,11 @@ button.nav-picker-pill {
     border: none;
     border-top: 2px solid lighten($nav-background, 5%);
     background-color: $nav-background;
-    color: $nav-contrast-40;
+    color: $nav-contrast-60;
     font-size: 0.9rem;
 
     i {
-        color: $nav-contrast-20;
+        color: $nav-contrast-60;
         margin-right: 5px;
         @include media-breakpoint-down(sm) {
             font-size: 1rem;
