@@ -10,6 +10,30 @@
       "items": [
         {
           "id": 1,
+          "dateStart": { "year": 2023, "month": 10 },
+          "fallbackFaIconColor": null,
+          "locales": {
+            "id": {
+              "title": "Sertifikat Pengabdian Kepada Masyarakat",
+              "description": "Pengakuan resmi atas partisipasi sebagai anggota dalam program pengabdian masyarakat yang berfokus pada pelatihan Microsoft Excel bagi siswa di SMP Falatehan.",
+              "institution": "Universitas Pamulang"
+            },
+            "en": {
+              "title": "Certificate of Community Service",
+              "description": "Official recognition for participation as a member in the community service program focused on Microsoft Excel training for students at SMP Falatehan.",
+              "institution": "Universitas Pamulang"
+            }
+          },
+          "links": [
+            {
+              "href": "https://drive.google.com/file/d/1decUNZeXb1ARrmV_qGFAB3X5BR9TLeUr/view",
+              "stringKey": "view_certification"
+            }
+          ]
+        },
+
+        {
+          "id": 2,
           "dateStart": { "year": 2024, "month": 6 },
           "fallbackFaIconColor": null,
           "locales": {
@@ -33,7 +57,7 @@
         },
 
         {
-          "id": 2,
+          "id": 3,
           "dateStart": { "year": 2025, "month": 4 },
           "fallbackFaIcon": "fa-solid fa-house-laptop",
           "fallbackFaIconColor": null,
@@ -58,7 +82,7 @@
         },
 
         {
-          "id": 3,
+          "id": 4,
           "dateStart": { "year": 2026, "month": 0 },
           "fallbackFaIconColor": null,
           "locales": {
@@ -81,7 +105,7 @@
           ]
         },
         {
-          "id": 4,
+          "id": 5,
           "dateStart": { "year": 2026, "month": 1 },
           "fallbackFaIconColor": null,
           "locales": {
@@ -104,7 +128,7 @@
           ]
         },
         {
-          "id": 5,
+          "id": 6,
           "dateStart": { "year": 2026, "month": 1 },
           "fallbackFaIconColor": null,
           "locales": {
@@ -127,7 +151,7 @@
           ]
         },
         {
-          "id": 6,
+          "id": 7,
           "dateStart": { "year": 2026, "month": 2 },
           "fallbackFaIconColor": null,
           "locales": {
